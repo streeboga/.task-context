@@ -1,0 +1,61 @@
+[
+  {
+    "interaction_id": "e28834d2c85d",
+    "task_id": "87ab40e8-2d65-4f3c-9b9e-c1f1b554f613",
+    "timestamp": "2025-08-26T22:44:24.747555",
+    "user_message": "По документации планируется: Ветки для задач - каждая задача в отдельной ветке, Автоматический merge при завершении, Теги для важных моментов. Распиши и добавь в новые задачи",
+    "assistant_response_summary": "Создал главную задачу 'Расширенная Git интеграция' с 4 подзадачами: ветки для задач, автоматический merge, теги для важных моментов, улучшенная навигация. Написал детальный план в docs/GIT_INTEGRATION_PLAN.md с техническими требованиями, структурой workflow и тестами",
+    "file_changes": [
+      {
+        "file_path": "README.md",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T22:44:24.608219",
+        "size_before": 5190,
+        "size_after": 5213,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/GIT_INTEGRATION_PLAN.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T22:44:24.608219",
+        "size_before": 0,
+        "size_after": 9113,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T22:44:24.608219",
+        "size_before": 117724,
+        "size_after": 124944,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_c931fd0c-0982-4c16-96b4-acb1bbfc72ee.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T22:44:24.608219",
+        "size_before": 0,
+        "size_after": 8645,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T22:44:24.608219",
+        "size_before": 21442,
+        "size_after": 19396,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "todo_write",
+      "write"
+    ]
+  }
+]
