@@ -166,5 +166,19 @@
       "Using MCP for task management"
     ],
     "progress_summary": "Integration test progress"
+  },
+  "465b4e2c-9ec4-4436-9315-c1f3919be55d": {
+    "id": "465b4e2c-9ec4-4436-9315-c1f3919be55d",
+    "name": "Test Task",
+    "objective": "Test LLM compression",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T19:05:42.273626",
+    "updated_at": "2025-08-26T19:05:42.273626",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_test_task():\n    # Test that Test Task works correctly\n    # TODO: Implement specific test cases for Test LLM compression\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
