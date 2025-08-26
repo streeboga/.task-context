@@ -419,5 +419,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "19f60e57-0060-47cf-ae71-455ad1cb4fab": {
+    "id": "19f60e57-0060-47cf-ae71-455ad1cb4fab",
+    "name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b",
+    "objective": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u044b\u0431\u043e\u0440\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0444\u0438\u043b\u044c\u0442\u0440\u043e\u0432 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T20:24:05.671047",
+    "updated_at": "2025-08-26T20:24:05.671047",
+    "parent_id": "d7393b40-04a8-45ac-918c-895442a2fead",
+    "acceptance_test": "\ndef test_\u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435_\u0444\u0438\u043b\u044c\u0442\u0440\u044b():\n    # Test that \u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b works correctly\n    # TODO: Implement specific test cases for \u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u044b\u0431\u043e\u0440\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0444\u0438\u043b\u044c\u0442\u0440\u043e\u0432 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
