@@ -17,7 +17,7 @@
   "html_renderer.py": {
     "exists": true,
     "size": 75485,
-    "mtime": 1756216537.3259547,
+    "mtime": 1756216604.5791345,
     "hash": "edefe07574de3f568edad8d81f5ca769"
   },
   "debug_mcp.py": {
@@ -97,9 +97,9 @@
   },
   ".cursorrules": {
     "exists": true,
-    "size": 15262,
-    "mtime": 1756216590.151046,
-    "hash": "0e5cd7ff0ef04bf42d70b4f85ec180a0"
+    "size": 15546,
+    "mtime": 1756216606.91045,
+    "hash": "0106b38b4c76f8d375b202c63b6a25b2"
   },
   "test_cursor_mcp.py": {
     "exists": false
@@ -292,9 +292,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 102285,
-    "mtime": 1756216579.9405491,
-    "hash": "a6790890ab4f8e3a996364cf0b825c7f"
+    "size": 102289,
+    "mtime": 1756216667.045695,
+    "hash": "c2964d4a2202998ae0315f2b3ee6f539"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -310,9 +310,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 20636,
-    "mtime": 1756216341.0047948,
-    "hash": "3a125f801b17692578afe255d3ffd4cd"
+    "size": 22040,
+    "mtime": 1756216593.631122,
+    "hash": "021de4fbac5a19e18bb5af613f238132"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -577,9 +577,9 @@
   },
   ".cursor/rules/task-context.mdc": {
     "exists": true,
-    "size": 18311,
-    "mtime": 1756215986.7807224,
-    "hash": "100cdc84bca1635f4cc9b3f89f3342b4"
+    "size": 24834,
+    "mtime": 1756216657.1704326,
+    "hash": "f32d84d78dc2359ab0ccf4d054ee0eb4"
   },
   "debug_current_task.py": {
     "exists": true,
@@ -802,5 +802,11 @@
     "size": 106439,
     "mtime": 1756213442.9976003,
     "hash": "36b203ace63597b1184b0ea4c0814ba1"
+  },
+  ".task-context/interactions/task_d1cc264f-57e7-4099-a5fe-3874dd9f37e7.json": {
+    "exists": true,
+    "size": 10305,
+    "mtime": 1756216593.6317134,
+    "hash": "6ff2f9c592fa815c55dc268a762ae489"
   }
 }

@@ -1,0 +1,63 @@
+[
+  {
+    "interaction_id": "2c1551c15188",
+    "task_id": "886f18ac-c713-4e3e-8ca5-6b50b5d104a3",
+    "timestamp": "2025-08-26T20:57:54.474192",
+    "user_message": "вынеси в курсоррулс работу с тестами. и перенеси тесты в папк с тестами и все отчеты, нахера ты это всё в корне помещаешь",
+    "assistant_response_summary": "Организовал тестирование: перенес все тесты из корня в правильные папки (tests/integration/, tests/acceptance_manual/), переместил HTML отчеты в tests/reports/, обновил правила тестирования в .cursorrules и task-context.mdc с детальной структурой папок и категоризацией тестов",
+    "file_changes": [
+      {
+        "file_path": ".cursorrules",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:57:54.360842",
+        "size_before": 15262,
+        "size_after": 15546,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:57:54.360842",
+        "size_before": 102285,
+        "size_after": 102289,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:57:54.360842",
+        "size_before": 20636,
+        "size_after": 22040,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_d1cc264f-57e7-4099-a5fe-3874dd9f37e7.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:57:54.360842",
+        "size_before": 0,
+        "size_after": 10305,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursor/rules/task-context.mdc",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:57:54.360842",
+        "size_before": 18311,
+        "size_after": 24834,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "task_command",
+      "run_terminal_cmd",
+      "write",
+      "search_replace",
+      "read_file"
+    ]
+  }
+]
