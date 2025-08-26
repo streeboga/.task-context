@@ -148,9 +148,9 @@
   },
   "commands.py": {
     "exists": true,
-    "size": 25095,
-    "mtime": 1756218488.266461,
-    "hash": "c896649cdbfffad337f4dd742662f393"
+    "size": 25633,
+    "mtime": 1756218611.9581754,
+    "hash": "cb42e5bd6af70b73bf5e6abfb3863b75"
   },
   "test_git_check.py": {
     "exists": false
@@ -217,9 +217,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 114551,
-    "mtime": 1756218543.8090823,
-    "hash": "2edbb960bdcadc1188ae83a01c1a6c1f"
+    "size": 116259,
+    "mtime": 1756218786.3329124,
+    "hash": "f735b940dcfa5b1653202ffdc820b1ea"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -235,9 +235,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 20457,
-    "mtime": 1756218353.6501148,
-    "hash": "5720c6d50c29407a4de3c05bb058b360"
+    "size": 21069,
+    "mtime": 1756218550.1997838,
+    "hash": "538b072a2830cbf290c2b17f1628ed94"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -714,10 +714,7 @@
     "hash": "aac347cc787fc3b03081ac90f5ac313f"
   },
   "docs/TROUBLESHOOTING.md": {
-    "exists": true,
-    "size": 5473,
-    "mtime": 1756205228.1964762,
-    "hash": "d22a2eeb2630991e0b18801649c3a876"
+    "exists": false
   },
   "docs/CHANGELOG_LLM.md": {
     "exists": false
@@ -765,10 +762,7 @@
     "hash": "dfc68df76d7b347684c479e4457c6abb"
   },
   "task-context.mdc": {
-    "exists": true,
-    "size": 24834,
-    "mtime": 1756218381.7818744,
-    "hash": "f32d84d78dc2359ab0ccf4d054ee0eb4"
+    "exists": false
   },
   ".task-context/interactions/task_a11b2b6a-4ba5-4ff2-8437-eaa7c7a2df74.json": {
     "exists": true,
@@ -779,13 +773,31 @@
   "tests/integration/test_init_cursor_rules.py": {
     "exists": true,
     "size": 5050,
-    "mtime": 1756218421.1958857,
+    "mtime": 1756218558.9631543,
     "hash": "0c07543c1362fef98b9b59fd3205cd2d"
   },
   "tests/acceptance/test_init_cursor_rules_acceptance.py": {
     "exists": true,
     "size": 4687,
-    "mtime": 1756218526.8869498,
+    "mtime": 1756218558.963136,
     "hash": "b0073e33c7a0a3bb5796582b82583c52"
+  },
+  ".task-context/interactions/task_737e8ff5-a40b-4ba3-983e-d1acd6264e6b.json": {
+    "exists": true,
+    "size": 3093,
+    "mtime": 1756218550.2001314,
+    "hash": "d40d80836d9cb9b45836cf2c6af5b97a"
+  },
+  "tests/integration/test_init_all_cursor_rules.py": {
+    "exists": true,
+    "size": 8380,
+    "mtime": 1756218638.1013806,
+    "hash": "64d48d7216527f6f48ad698105b72f3d"
+  },
+  "tests/acceptance/test_init_all_cursor_rules_acceptance.py": {
+    "exists": true,
+    "size": 8526,
+    "mtime": 1756218752.7140794,
+    "hash": "ad9d3a3a8c8868b1b43b08a282670503"
   }
 }
