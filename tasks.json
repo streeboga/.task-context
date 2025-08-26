@@ -324,12 +324,14 @@
     "task_type": "function",
     "status": "pending",
     "created_at": "2025-08-26T20:13:58.619032",
-    "updated_at": "2025-08-26T20:13:58.619032",
+    "updated_at": "2025-08-26T20:13:58.708670",
     "parent_id": null,
     "acceptance_test": "\ndef test_mcp_\u0442\u0435\u0441\u0442():\n    # Test that MCP \u0422\u0435\u0441\u0442 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442 \u043d\u043e\u0432\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u0447\u0435\u0440\u0435\u0437 MCP\n    pass\n",
     "working_files": [],
-    "decisions": [],
-    "progress_summary": null
+    "decisions": [
+      "\u0420\u0435\u0448\u0435\u043d\u0438\u0435: \u043d\u043e\u0432\u0430\u044f \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043e\u0442\u043b\u0438\u0447\u043d\u043e"
+    ],
+    "progress_summary": "MCP \u0442\u0435\u0441\u0442 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430"
   },
   "1a6c8544-e989-4f13-8c5f-6ca1eb572345": {
     "id": "1a6c8544-e989-4f13-8c5f-6ca1eb572345",
