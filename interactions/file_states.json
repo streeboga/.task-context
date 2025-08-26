@@ -80,7 +80,7 @@
   "README.md": {
     "exists": true,
     "size": 5190,
-    "mtime": 1756218249.0472946,
+    "mtime": 1756218381.6995919,
     "hash": "63b66657471e4350f4474935715b36fc"
   },
   "context_compressor.py": {
@@ -148,9 +148,9 @@
   },
   "commands.py": {
     "exists": true,
-    "size": 23318,
-    "mtime": 1756218335.2858567,
-    "hash": "e292b72fdbe0a7a90174e5327127a9b1"
+    "size": 25095,
+    "mtime": 1756218488.266461,
+    "hash": "c896649cdbfffad337f4dd742662f393"
   },
   "test_git_check.py": {
     "exists": false
@@ -217,9 +217,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 114549,
-    "mtime": 1756218345.4464014,
-    "hash": "43a98a20b762562fce37efbe17effdef"
+    "size": 114551,
+    "mtime": 1756218543.8090823,
+    "hash": "2edbb960bdcadc1188ae83a01c1a6c1f"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -235,9 +235,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 21566,
-    "mtime": 1756218013.561249,
-    "hash": "b45ec90760d087565971ddac94695506"
+    "size": 20457,
+    "mtime": 1756218353.6501148,
+    "hash": "5720c6d50c29407a4de3c05bb058b360"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -720,10 +720,7 @@
     "hash": "d22a2eeb2630991e0b18801649c3a876"
   },
   "docs/CHANGELOG_LLM.md": {
-    "exists": true,
-    "size": 2941,
-    "mtime": 1756207868.3597226,
-    "hash": "636df47eba20b28088a825f1f30fc89f"
+    "exists": false
   },
   "docs/METHODOLOGY.md": {
     "exists": true,
@@ -766,5 +763,29 @@
     "size": 1971,
     "mtime": 1756212495.7043204,
     "hash": "dfc68df76d7b347684c479e4457c6abb"
+  },
+  "task-context.mdc": {
+    "exists": true,
+    "size": 24834,
+    "mtime": 1756218381.7818744,
+    "hash": "f32d84d78dc2359ab0ccf4d054ee0eb4"
+  },
+  ".task-context/interactions/task_a11b2b6a-4ba5-4ff2-8437-eaa7c7a2df74.json": {
+    "exists": true,
+    "size": 13279,
+    "mtime": 1756218353.650785,
+    "hash": "c9eda9fda65560221ddbebe43ec52d64"
+  },
+  "tests/integration/test_init_cursor_rules.py": {
+    "exists": true,
+    "size": 5050,
+    "mtime": 1756218421.1958857,
+    "hash": "0c07543c1362fef98b9b59fd3205cd2d"
+  },
+  "tests/acceptance/test_init_cursor_rules_acceptance.py": {
+    "exists": true,
+    "size": 4687,
+    "mtime": 1756218526.8869498,
+    "hash": "b0073e33c7a0a3bb5796582b82583c52"
   }
 }
