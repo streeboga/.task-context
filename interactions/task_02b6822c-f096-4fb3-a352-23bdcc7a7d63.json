@@ -1,0 +1,674 @@
+[
+  {
+    "interaction_id": "6c2afeae408a",
+    "task_id": "02b6822c-f096-4fb3-a352-23bdcc7a7d63",
+    "timestamp": "2025-08-26T19:58:21.454848",
+    "user_message": "Тестируем логирование после исправления current_task_id",
+    "assistant_response_summary": "Исправлена проблема с сбросом current_task_id в null при завершении задач. Убрана строка self.current_task_id = None из complete_task(). Создан тест для проверки персистентности. Теперь каждый чат помнит последнюю созданную задачу для корректного логирования.",
+    "file_changes": [
+      {
+        "file_path": "test_current_task_persistence.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 4443,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 29064,
+        "size_after": 68575,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_TREE_VIEWER_README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 9021,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "pytest.ini",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 392,
+        "size_after": 518,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "requirements.txt",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 128,
+        "size_after": 223,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 5540,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 26999,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursorrules",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 8054,
+        "size_after": 9023,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 96925,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_manager.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 15148,
+        "size_after": 16714,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 93199,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_интерактивное_дерево_задач.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 851,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "example_usage.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 1971,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 19177,
+        "size_after": 21386,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 4674,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tree.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 13932,
+        "size_after": 20076,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/index.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 2784,
+        "size_after": 3130,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/table.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 8262,
+        "size_after": 7316,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/git-tree.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 57543,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/dashboard.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 3999,
+        "size_after": 4003,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 25870,
+        "size_after": 51227,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/current_task.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 59,
+        "size_after": 59,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".test-context/tasks.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 587,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".test-context/current_task.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 59,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_0978cd7e-eef4-46d4-8dc7-6df179b21834.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 1740,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 8507,
+        "size_after": 8885,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_mcp_server.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 14177,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_тест_правильного_пути.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8336,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_copy_context_button.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 7074,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_task_manager.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 10698,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_commands.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 15103,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_добавить_кнопку_копирования_контекста.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 6847,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_context_store.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 11323,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/llm/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/llm/test_тест_llm_компрессии.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8793,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/llm/test_llm_integration.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 7677,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/task_management/test_task_visibility.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 5578,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/task_management/test_task_hierarchy.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8303,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/task_management/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/task_management/test_real_time_task_tree_viewer_cli.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8941,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_cursor_mcp.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 5134,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_system.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 4325,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_client.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 3538,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_interaction_logging.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8844,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/test_html_renderer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 2725,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/test_html_task_renderer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 8732,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance/test_тест_правильного_пути_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 2819,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance/test_html_task_renderer_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 5516,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance/test_тест_llm_компрессии_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 3473,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_interactive_git_tree.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 9688,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_проверить_работу_git.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 3083,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_git_integration.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 3303,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_interactive_git_tree_task_renderer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 4282,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_git_check.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 6739,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursor/rules/task-context.mdc",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 0,
+        "size_after": 18311,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_html_renderer.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 2725,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_task_visibility.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 5578,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_cursor_mcp.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 5134,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_system.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 4325,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_git_integration.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 3303,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_llm_integration.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 7677,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_client.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 3538,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interaction_logging.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 8844,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_git_check.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 6739,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_mcp_server.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 14177,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_task_manager.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 10698,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_commands.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 15103,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_context_store.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T19:58:21.361434",
+        "size_before": 11323,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "search_replace",
+      "write",
+      "run_terminal_cmd",
+      "grep"
+    ]
+  }
+]
