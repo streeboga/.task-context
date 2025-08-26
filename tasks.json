@@ -94,121 +94,15 @@
     "name": "\u041f\u0440\u043e\u0433\u043e\u043d \u0432\u0441\u0435\u0445 \u0442\u0435\u0441\u0442\u043e\u0432",
     "objective": "\u0417\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0432\u0441\u0435 \u0442\u0435\u0441\u0442\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u0443\u0431\u0435\u0434\u0438\u0442\u044c\u0441\u044f \u0447\u0442\u043e \u043e\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0430\u0434\u0435\u043a\u0432\u0430\u0442\u043d\u043e",
     "task_type": "function",
-    "status": "completed",
+    "status": "pending",
     "created_at": "2025-08-26T19:04:30.957251",
-    "updated_at": "2025-08-26T19:04:39.315130",
+    "updated_at": "2025-08-26T19:06:00.706536",
     "parent_id": null,
     "acceptance_test": "\ndef test_\u043f\u0440\u043e\u0433\u043e\u043d_\u0432\u0441\u0435\u0445_\u0442\u0435\u0441\u0442\u043e\u0432():\n    # Test that \u041f\u0440\u043e\u0433\u043e\u043d \u0432\u0441\u0435\u0445 \u0442\u0435\u0441\u0442\u043e\u0432 works correctly\n    # TODO: Implement specific test cases for \u0417\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0432\u0441\u0435 \u0442\u0435\u0441\u0442\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u0443\u0431\u0435\u0434\u0438\u0442\u044c\u0441\u044f \u0447\u0442\u043e \u043e\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0430\u0434\u0435\u043a\u0432\u0430\u0442\u043d\u043e\n    pass\n",
     "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "c5039c29-c507-49db-8b8c-f6c0e3e474cc": {
-    "id": "c5039c29-c507-49db-8b8c-f6c0e3e474cc",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "paused",
-    "created_at": "2025-08-26T19:04:40.016843",
-    "updated_at": "2025-08-26T19:05:07.037263",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
     "decisions": [
-      "Using MCP for task management"
+      "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u043e: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430, \u0432\u0441\u0435 \u0442\u0435\u0441\u0442\u044b \u043f\u0440\u043e\u0445\u043e\u0434\u044f\u0442, MCP \u0441\u0435\u0440\u0432\u0435\u0440 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e, \u0437\u0430\u0434\u0430\u0447\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0442\u0441\u044f \u0432 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u043f\u0430\u043f\u043a\u0443 \u043f\u0440\u043e\u0435\u043a\u0442\u0430, Git \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442, \u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u044c \u0437\u0430\u0434\u0430\u0447 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0430."
     ],
-    "progress_summary": "Integration test progress"
-  },
-  "fb8f1108-9808-45b4-a7ce-29ccdaa08771": {
-    "id": "fb8f1108-9808-45b4-a7ce-29ccdaa08771",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "completed",
-    "created_at": "2025-08-26T19:05:07.067967",
-    "updated_at": "2025-08-26T19:05:15.645001",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "Using MCP for task management"
-    ],
-    "progress_summary": "Integration test progress"
-  },
-  "b2254652-b2c5-4ed5-bd2f-5a1dae44e814": {
-    "id": "b2254652-b2c5-4ed5-bd2f-5a1dae44e814",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "completed",
-    "created_at": "2025-08-26T19:05:16.321468",
-    "updated_at": "2025-08-26T19:05:28.159513",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "Using MCP for task management"
-    ],
-    "progress_summary": "Integration test progress"
-  },
-  "dedb90e8-dcc8-4310-aca9-320c3a212244": {
-    "id": "dedb90e8-dcc8-4310-aca9-320c3a212244",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "paused",
-    "created_at": "2025-08-26T19:05:28.811760",
-    "updated_at": "2025-08-26T19:05:42.249569",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "Using MCP for task management"
-    ],
-    "progress_summary": "Integration test progress"
-  },
-  "465b4e2c-9ec4-4436-9315-c1f3919be55d": {
-    "id": "465b4e2c-9ec4-4436-9315-c1f3919be55d",
-    "name": "Test Task",
-    "objective": "Test LLM compression",
-    "task_type": "function",
-    "status": "paused",
-    "created_at": "2025-08-26T19:05:42.273626",
-    "updated_at": "2025-08-26T19:05:44.609973",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_task():\n    # Test that Test Task works correctly\n    # TODO: Implement specific test cases for Test LLM compression\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "9e2e9278-5e94-43ad-8ab6-3f2563fbfe28": {
-    "id": "9e2e9278-5e94-43ad-8ab6-3f2563fbfe28",
-    "name": "Test Task",
-    "objective": "Test task creation via MCP",
-    "task_type": "function",
-    "status": "completed",
-    "created_at": "2025-08-26T19:05:44.637484",
-    "updated_at": "2025-08-26T19:05:51.868970",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_task():\n    # Test that Test Task works correctly\n    # TODO: Implement specific test cases for Test task creation via MCP\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "f1f06e71-b1ce-457f-b92e-65e74ae6897d": {
-    "id": "f1f06e71-b1ce-457f-b92e-65e74ae6897d",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T19:05:52.581884",
-    "updated_at": "2025-08-26T19:05:52.611628",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "Using MCP for task management"
-    ],
-    "progress_summary": "Integration test progress"
+    "progress_summary": "\u0412\u0441\u0435 \u0442\u0435\u0441\u0442\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043f\u0440\u043e\u0439\u0434\u0435\u043d\u044b. \u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u043e\u0434\u0438\u043d \u0443\u043f\u0430\u0432\u0448\u0438\u0439 \u0442\u0435\u0441\u0442 \u0432 test_mcp_server.py. \u041f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u044b \u044e\u043d\u0438\u0442-\u0442\u0435\u0441\u0442\u044b (86 \u0442\u0435\u0441\u0442\u043e\u0432), \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0442\u0435\u0441\u0442\u044b, \u0442\u0435\u0441\u0442\u044b MCP \u0441\u0435\u0440\u0432\u0435\u0440\u0430, \u0442\u0435\u0441\u0442\u044b \u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u0437\u0430\u0434\u0430\u0447. \u041f\u043e\u043a\u0440\u044b\u0442\u0438\u0435 \u043a\u043e\u0434\u0430 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 49%. \u0412\u0441\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0430\u0434\u0435\u043a\u0432\u0430\u0442\u043d\u043e."
   }
 }
