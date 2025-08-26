@@ -330,5 +330,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "1a6c8544-e989-4f13-8c5f-6ca1eb572345": {
+    "id": "1a6c8544-e989-4f13-8c5f-6ca1eb572345",
+    "name": "MCP \u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430",
+    "objective": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 \u0447\u0435\u0440\u0435\u0437 MCP",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T20:13:58.665633",
+    "updated_at": "2025-08-26T20:13:58.665633",
+    "parent_id": "a73a699c-66b3-46ff-b2b8-705832415217",
+    "acceptance_test": "\ndef test_mcp_\u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430():\n    # Test that MCP \u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 \u0447\u0435\u0440\u0435\u0437 MCP\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
