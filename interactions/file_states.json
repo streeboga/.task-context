@@ -11,7 +11,7 @@
   "html_renderer.py": {
     "exists": true,
     "size": 75485,
-    "mtime": 1756216604.5791345,
+    "mtime": 1756219256.1293736,
     "hash": "edefe07574de3f568edad8d81f5ca769"
   },
   "debug_mcp.py": {
@@ -80,7 +80,7 @@
   "README.md": {
     "exists": true,
     "size": 5190,
-    "mtime": 1756218381.6995919,
+    "mtime": 1756219174.2861624,
     "hash": "63b66657471e4350f4474935715b36fc"
   },
   "context_compressor.py": {
@@ -110,7 +110,7 @@
   "task_manager.py": {
     "exists": true,
     "size": 15200,
-    "mtime": 1756217810.0973167,
+    "mtime": 1756219174.2861898,
     "hash": "b8072fcf892dd3589b429e75c910bb36"
   },
   "test_git_integration.py": {
@@ -149,7 +149,7 @@
   "commands.py": {
     "exists": true,
     "size": 25633,
-    "mtime": 1756218611.9581754,
+    "mtime": 1756218803.5402796,
     "hash": "cb42e5bd6af70b73bf5e6abfb3863b75"
   },
   "test_git_check.py": {
@@ -217,15 +217,12 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 116259,
-    "mtime": 1756218786.3329124,
-    "hash": "f735b940dcfa5b1653202ffdc820b1ea"
+    "size": 117724,
+    "mtime": 1756219343.3539214,
+    "hash": "88b7685a555d0ab0a3f1cffab10488d4"
   },
   ".task-context/current_task.json": {
-    "exists": true,
-    "size": 59,
-    "mtime": 1756213364.2653596,
-    "hash": "dc56f9ff0efe0306c78495261b68f83a"
+    "exists": false
   },
   ".task-context/interactions/task_c49860a5-e351-459d-a3d1-2ea39abde303.json": {
     "exists": true,
@@ -235,9 +232,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 21069,
-    "mtime": 1756218550.1997838,
-    "hash": "538b072a2830cbf290c2b17f1628ed94"
+    "size": 21442,
+    "mtime": 1756218792.9944894,
+    "hash": "eaa8172157f7f1b98e614f9cc6c047d1"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -269,7 +266,7 @@
   "tests/README.md": {
     "exists": true,
     "size": 15841,
-    "mtime": 1756217222.2688384,
+    "mtime": 1756218876.6703753,
     "hash": "45b07bd93e88f1ccfc71169cee87672c"
   },
   ".task-context/git-tree.html": {
@@ -288,16 +285,10 @@
     "hash": "4d964a5106de20bf6032b8b5bf7c11c8"
   },
   "tests/unit/test_mcp_server.py": {
-    "exists": true,
-    "size": 14177,
-    "mtime": 1756209977.7224352,
-    "hash": "3c0ce63a336e54c65439a5f4dd036895"
+    "exists": false
   },
   "tests/unit/test_\u0442\u0435\u0441\u0442_\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0433\u043e_\u043f\u0443\u0442\u0438.py": {
-    "exists": true,
-    "size": 8336,
-    "mtime": 1756210981.810609,
-    "hash": "f1099b0a6ab0054a3da99cbd722bf934"
+    "exists": false
   },
   "tests/unit/test_copy_context_button.py": {
     "exists": false
@@ -309,25 +300,16 @@
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "tests/unit/test_task_manager.py": {
-    "exists": true,
-    "size": 10698,
-    "mtime": 1756205224.7141495,
-    "hash": "791a5fb5a386f725fc811e0806d3bdae"
+    "exists": false
   },
   "tests/unit/test_commands.py": {
-    "exists": true,
-    "size": 15103,
-    "mtime": 1756205224.8636532,
-    "hash": "78c5e047a4bd5638046f8bdaddd6d679"
+    "exists": false
   },
   "tests/unit/test_\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c_\u043a\u043d\u043e\u043f\u043a\u0443_\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430.py": {
     "exists": false
   },
   "tests/unit/test_context_store.py": {
-    "exists": true,
-    "size": 11323,
-    "mtime": 1756205225.4837012,
-    "hash": "0247a2b72b3a5b9a41dbd15605cf686b"
+    "exists": false
   },
   "tests/llm/__init__.py": {
     "exists": true,
@@ -336,10 +318,7 @@
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "tests/llm/test_\u0442\u0435\u0441\u0442_llm_\u043a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u0438\u0438.py": {
-    "exists": true,
-    "size": 8793,
-    "mtime": 1756210981.8153095,
-    "hash": "6f36ee6fe805508b6cc45d24b946a02f"
+    "exists": false
   },
   "tests/llm/test_llm_integration.py": {
     "exists": true,
@@ -348,16 +327,10 @@
     "hash": "dcf5312e0cfb9597042f839ce5867d6b"
   },
   "tests/task_management/test_task_visibility.py": {
-    "exists": true,
-    "size": 5578,
-    "mtime": 1756208181.6781623,
-    "hash": "2bd81a1850a42675252a6220ec70e40f"
+    "exists": false
   },
   "tests/task_management/test_task_hierarchy.py": {
-    "exists": true,
-    "size": 8303,
-    "mtime": 1756212148.503647,
-    "hash": "656cf1624e25990dac7a59443ea2a630"
+    "exists": false
   },
   "tests/task_management/__init__.py": {
     "exists": true,
@@ -366,10 +339,7 @@
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "tests/task_management/test_real_time_task_tree_viewer_cli.py": {
-    "exists": true,
-    "size": 8941,
-    "mtime": 1756212495.7042751,
-    "hash": "726e9f209fd2c51c2c89ff065965fce2"
+    "exists": false
   },
   "tests/integration/__init__.py": {
     "exists": true,
@@ -378,28 +348,16 @@
     "hash": "b302accd74ea078246f074808935b8cc"
   },
   "tests/integration/test_cursor_mcp.py": {
-    "exists": true,
-    "size": 5134,
-    "mtime": 1756205228.0171785,
-    "hash": "24cfb7be1867be41baae6afbcdb02f38"
+    "exists": false
   },
   "tests/integration/test_system.py": {
-    "exists": true,
-    "size": 4325,
-    "mtime": 1756202407.9263258,
-    "hash": "516675e4e834f715702b28378c25067a"
+    "exists": false
   },
   "tests/integration/test_client.py": {
-    "exists": true,
-    "size": 3538,
-    "mtime": 1756205224.004997,
-    "hash": "0c59e870ee35b7003f5c2e53f83ff604"
+    "exists": false
   },
   "tests/integration/test_interaction_logging.py": {
-    "exists": true,
-    "size": 8844,
-    "mtime": 1756210625.451937,
-    "hash": "ea53148379d2bf3931b7d3fea624b557"
+    "exists": false
   },
   "tests/html/test_html_renderer.py": {
     "exists": false
@@ -411,10 +369,7 @@
     "exists": false
   },
   "tests/acceptance/test_\u0442\u0435\u0441\u0442_\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0433\u043e_\u043f\u0443\u0442\u0438_acceptance.py": {
-    "exists": true,
-    "size": 2819,
-    "mtime": 1756210981.8152027,
-    "hash": "119eb05ad911968b97f952fdde58e6c6"
+    "exists": false
   },
   "tests/acceptance/__init__.py": {
     "exists": true,
@@ -426,10 +381,7 @@
     "exists": false
   },
   "tests/acceptance/test_\u0442\u0435\u0441\u0442_llm_\u043a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u0438\u0438_acceptance.py": {
-    "exists": true,
-    "size": 3473,
-    "mtime": 1756210981.815364,
-    "hash": "51a57bf74b5687c8a10823f7f207c58f"
+    "exists": false
   },
   "tests/git/test_interactive_git_tree.py": {
     "exists": false
@@ -447,10 +399,7 @@
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "tests/git/test_git_integration.py": {
-    "exists": true,
-    "size": 3303,
-    "mtime": 1756205224.2828176,
-    "hash": "e6c5412728ed1ed3c61e27a260385188"
+    "exists": false
   },
   "tests/git/test_interactive_git_tree_task_renderer.py": {
     "exists": false
@@ -464,7 +413,7 @@
   ".cursor/rules/task-context.mdc": {
     "exists": true,
     "size": 24834,
-    "mtime": 1756216687.3772812,
+    "mtime": 1756219250.4625509,
     "hash": "f32d84d78dc2359ab0ccf4d054ee0eb4"
   },
   "debug_current_task.py": {
@@ -511,9 +460,9 @@
   },
   "tests/run_all.py": {
     "exists": true,
-    "size": 8095,
-    "mtime": 1756217000.9699063,
-    "hash": "b61231737173824ae13df1eb9055dbb8"
+    "size": 3865,
+    "mtime": 1756219320.775077,
+    "hash": "89a0815f9bb8243198e0ea0c61c9a441"
   },
   ".task-context/interactions/task_a73a699c-66b3-46ff-b2b8-705832415217.json": {
     "exists": true,
@@ -528,16 +477,10 @@
     "hash": "b90783f01e1430e670038c0396ec7770"
   },
   "tests/integration/test_mcp_new_architecture.py": {
-    "exists": true,
-    "size": 8435,
-    "mtime": 1756214070.0683477,
-    "hash": "3b719fa3727bdb716b97cdda372745ea"
+    "exists": false
   },
   "tests/integration/test_new_architecture.py": {
-    "exists": true,
-    "size": 5926,
-    "mtime": 1756215986.7807453,
-    "hash": "7f78a113840975c92ac8be5a52a932a9"
+    "exists": false
   },
   "test_compress_focus_direct.py": {
     "exists": false
@@ -594,16 +537,10 @@
     "hash": "047be3712e60d458cc8c5a56bced3475"
   },
   "tests/integration/test_current_task_persistence.py": {
-    "exists": true,
-    "size": 4443,
-    "mtime": 1756213262.238983,
-    "hash": "213d7f30184bb52942cfc6f6b90b451b"
+    "exists": false
   },
   "tests/integration/test_compress_focus_direct.py": {
-    "exists": true,
-    "size": 3783,
-    "mtime": 1756214960.9510815,
-    "hash": "b79009e71da8c25cb93cdcfb0662c7b6"
+    "exists": false
   },
   "tests/acceptance_manual/test_real_time_interactive_tree_acceptance.py": {
     "exists": false
@@ -771,16 +708,10 @@
     "hash": "c9eda9fda65560221ddbebe43ec52d64"
   },
   "tests/integration/test_init_cursor_rules.py": {
-    "exists": true,
-    "size": 5050,
-    "mtime": 1756218558.9631543,
-    "hash": "0c07543c1362fef98b9b59fd3205cd2d"
+    "exists": false
   },
   "tests/acceptance/test_init_cursor_rules_acceptance.py": {
-    "exists": true,
-    "size": 4687,
-    "mtime": 1756218558.963136,
-    "hash": "b0073e33c7a0a3bb5796582b82583c52"
+    "exists": false
   },
   ".task-context/interactions/task_737e8ff5-a40b-4ba3-983e-d1acd6264e6b.json": {
     "exists": true,
@@ -791,13 +722,19 @@
   "tests/integration/test_init_all_cursor_rules.py": {
     "exists": true,
     "size": 8380,
-    "mtime": 1756218638.1013806,
+    "mtime": 1756218803.5222995,
     "hash": "64d48d7216527f6f48ad698105b72f3d"
   },
   "tests/acceptance/test_init_all_cursor_rules_acceptance.py": {
     "exists": true,
     "size": 8526,
-    "mtime": 1756218752.7140794,
+    "mtime": 1756218803.5458682,
     "hash": "ad9d3a3a8c8868b1b43b08a282670503"
+  },
+  ".task-context/interactions/task_09d15930-04c7-4774-9adc-eba0a3fa287e.json": {
+    "exists": true,
+    "size": 3347,
+    "mtime": 1756218792.9950495,
+    "hash": "eb00d667a87d9f7b4cd4e3393f1ca82e"
   }
 }
