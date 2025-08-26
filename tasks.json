@@ -540,16 +540,16 @@
     "decisions": [],
     "progress_summary": null
   },
-  "13f9e48c-5f83-4aa4-b64e-2cbeb343e7d6": {
-    "id": "13f9e48c-5f83-4aa4-b64e-2cbeb343e7d6",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
+  "3ce3cce2-ddd2-4e7a-ba02-c16fb237f683": {
+    "id": "3ce3cce2-ddd2-4e7a-ba02-c16fb237f683",
+    "name": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "objective": "\u0421\u043e\u0437\u0434\u0430\u0442\u044c README \u043f\u043e \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443 \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 README",
     "task_type": "function",
     "status": "pending",
-    "created_at": "2025-08-26T21:03:02.604814",
-    "updated_at": "2025-08-26T21:03:02.604814",
+    "created_at": "2025-08-26T21:05:24.950008",
+    "updated_at": "2025-08-26T21:05:24.950008",
     "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
+    "acceptance_test": "\ndef test_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f_\u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f():\n    # Test that \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f works correctly\n    # TODO: Implement specific test cases for \u0421\u043e\u0437\u0434\u0430\u0442\u044c README \u043f\u043e \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443 \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 README\n    pass\n",
     "working_files": [],
     "decisions": [],
     "progress_summary": null
