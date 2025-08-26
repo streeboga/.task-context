@@ -1,0 +1,252 @@
+[
+  {
+    "interaction_id": "c83bfb137458",
+    "task_id": "51fb55f6-2eeb-46c1-bfd7-762cc5126ce2",
+    "timestamp": "2025-08-26T21:06:03.076195",
+    "user_message": "убери рендер html файлов в папке .task-context, оставь только динамический python task_tree_viewer.py .task-context/tasks.json",
+    "assistant_response_summary": "Успешно выполнена задача по удалению HTML рендеринга из .task-context. Удалены все HTML файлы из .task-context, изменена команда /task:render для запуска динамического просмотрщика вместо генерации статических файлов, удалены все связанные тесты HTML рендеринга. Теперь используется только динамический task_tree_viewer.py для просмотра задач.",
+    "file_changes": [
+      {
+        "file_path": "test_убрать_html_рендеринг_в_task_context.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 0,
+        "size_after": 1119,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 21116,
+        "size_after": 22096,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/README.md",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 4674,
+        "size_after": 10400,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/run_all.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 3787,
+        "size_after": 8095,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 102289,
+        "size_after": 106644,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 22040,
+        "size_after": 22242,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_886f18ac-c713-4e3e-8ca5-6b50b5d104a3.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 0,
+        "size_after": 2427,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TEST_REPORT.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 5799,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tree.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 53823,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/index.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 3130,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/table.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 16074,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/dashboard.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 3216,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/git-tree.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 176670,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_copy_context_button.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 7074,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/unit/test_добавить_кнопку_копирования_контекста.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 6847,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/test_html_renderer.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 2725,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/test_html_task_renderer.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 8732,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/html/__init__.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 0,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance/test_html_task_renderer_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 5516,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_interactive_git_tree.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 9688,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/git/test_interactive_git_tree_task_renderer.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 4282,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactive_tree_fix.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 810,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/session_summary.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 2487,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_real_time_interactive_tree_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 7628,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_interactive_tree_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 5540,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_compact_header_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:02.964941",
+        "size_before": 6495,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "delete_file",
+      "search_replace",
+      "run_terminal_cmd",
+      "todo_write",
+      "mcp_task-context-manager_task_command"
+    ]
+  }
+]
