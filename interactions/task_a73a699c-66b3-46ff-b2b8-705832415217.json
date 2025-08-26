@@ -1,0 +1,178 @@
+[
+  {
+    "interaction_id": "237b203a7e09",
+    "task_id": "a73a699c-66b3-46ff-b2b8-705832415217",
+    "timestamp": "2025-08-26T20:13:58.858129",
+    "user_message": "Тест новой архитектуры MCP",
+    "assistant_response_summary": "Протестировали все основные функции новой архитектуры",
+    "file_changes": [
+      {
+        "file_path": "task_tree_viewer_old.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 33959,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 68575,
+        "size_after": 67767,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_real_time_interactive_tree_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 7628,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compact_header_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 105503,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 33959,
+        "size_after": 14941,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_mcp_new_architecture.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 8435,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compact_header_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 6495,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer_new.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 15113,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_new_architecture.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 5926,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "INTERACTIVE_TREE_SUMMARY.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 5626,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_manager.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 17121,
+        "size_after": 14639,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_realtime_interactive_tree_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 0,
+        "size_after": 106439,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 21386,
+        "size_after": 21027,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_server.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 6271,
+        "size_after": 6185,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 53887,
+        "size_after": 61301,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/current_task.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 59,
+        "size_after": 59,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 16074,
+        "size_after": 16431,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_02b6822c-f096-4fb3-a352-23bdcc7a7d63.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:13:58.739976",
+        "size_before": 20754,
+        "size_after": 23408,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "task_command",
+      "get_context",
+      "save_progress"
+    ]
+  }
+]
