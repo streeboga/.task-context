@@ -1,0 +1,112 @@
+[
+  {
+    "interaction_id": "f7aef24a15ea",
+    "task_id": "723daa08-295a-4b20-aacd-ffefbd396c44",
+    "timestamp": "2025-08-26T20:42:09.247514",
+    "user_message": "compress",
+    "assistant_response_summary": "КОМАНДА COMPRESS РАБОТАЕТ! Успешно протестированы команды compress и focus с новой архитектурой. Compress выполнил сжатие контекста с коэффициентом 0.09x используя LLM. Focus показал рабочие файлы задачи. Валидация аргументов работает корректно. Все синтаксические ошибки в commands.py исправлены. Задача завершена успешно!",
+    "file_changes": [
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 70475,
+        "size_after": 70477,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "fix_commands_syntax.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 0,
+        "size_after": 2137,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 21116,
+        "size_after": 21116,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/session_summary.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 0,
+        "size_after": 2487,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 79244,
+        "size_after": 88475,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_d7393b40-04a8-45ac-918c-895442a2fead.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 0,
+        "size_after": 1562,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:42:09.120018",
+        "size_before": 19612,
+        "size_after": 19815,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "write",
+      "run_terminal_cmd",
+      "search_replace",
+      "mcp_task-context-manager_save_progress"
+    ]
+  },
+  {
+    "interaction_id": "509866d0edfc",
+    "task_id": "723daa08-295a-4b20-aacd-ffefbd396c44",
+    "timestamp": "2025-08-26T20:43:23.893849",
+    "user_message": "/task:focus 723daa08-295a-4b20-aacd-ffefbd396c44",
+    "assistant_response_summary": "Показал информацию о рабочих файлах для завершенной задачи 'Протестировать compress'. Задача уже завершена, поэтому рабочих файлов нет. Предоставил полную информацию о статусе и результатах задачи.",
+    "file_changes": [
+      {
+        "file_path": ".task-context/interactions/task_723daa08-295a-4b20-aacd-ffefbd396c44.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:43:23.765520",
+        "size_before": 0,
+        "size_after": 2907,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:43:23.765520",
+        "size_before": 19815,
+        "size_after": 20331,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "task_command",
+      "get_context"
+    ]
+  }
+]
