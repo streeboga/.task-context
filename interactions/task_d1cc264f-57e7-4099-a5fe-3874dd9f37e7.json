@@ -1,0 +1,316 @@
+[
+  {
+    "interaction_id": "89a26cba93be",
+    "task_id": "d1cc264f-57e7-4099-a5fe-3874dd9f37e7",
+    "timestamp": "2025-08-26T20:56:33.631170",
+    "user_message": "да в этом и идея (расширить логику спойлера на все выполненные задачи)",
+    "assistant_response_summary": "Успешно расширена логика спойлеров - теперь ВСЕ выполненные задачи верхнего уровня (18 задач) попадают в спойлер \"Выполненные задачи\", а активными остаются только невыполненные (10 задач). Интерфейс стал намного чище и фокусируется на активной работе.",
+    "file_changes": [
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 75408,
+        "size_after": 75485,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursorrules",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 10520,
+        "size_after": 15262,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tree.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 47889,
+        "size_after": 53823,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/index.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 3130,
+        "size_after": 3130,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/table.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 14059,
+        "size_after": 16074,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/git-tree.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 161066,
+        "size_after": 176670,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/dashboard.html",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 3216,
+        "size_after": 3216,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 93322,
+        "size_after": 102285,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 20536,
+        "size_after": 20636,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_35d87162-5570-44f7-b070-cce7b014c72e.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 4040,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_current_task_persistence.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 4443,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_compress_focus_direct.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 3783,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_real_time_interactive_tree_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 7628,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_interactive_tree_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 5540,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_compact_header_acceptance.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 6495,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 145,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/acceptance_manual/test_интерактивное_дерево_задач.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 851,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/reports/test_compact_header_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 105503,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/reports/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 85,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/reports/test_interactive_tree_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 96925,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/reports/test_interactive_tree.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 93199,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/reports/test_realtime_interactive_tree_result.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 0,
+        "size_after": 106439,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_current_task_persistence.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 4443,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 5540,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree_result.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 96925,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interactive_tree.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 93199,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_интерактивное_дерево_задач.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 851,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_real_time_interactive_tree_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 7628,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compact_header_result.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 105503,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compact_header_acceptance.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 6495,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_new_architecture.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 5926,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_realtime_interactive_tree_result.html",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 106439,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compress_focus_direct.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:56:33.540292",
+        "size_before": 3783,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "search_replace",
+      "write",
+      "run_terminal_cmd",
+      "mcp_task-context-manager_save_progress",
+      "delete_file"
+    ]
+  }
+]
