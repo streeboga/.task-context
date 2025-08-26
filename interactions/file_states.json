@@ -16,9 +16,9 @@
   },
   "html_renderer.py": {
     "exists": true,
-    "size": 70477,
-    "mtime": 1756215483.572565,
-    "hash": "2f6d6d8249368344fa05fe6d0e355af9"
+    "size": 75408,
+    "mtime": 1756216270.4633453,
+    "hash": "507ef060ab4159c019c056a7a1f0c1dc"
   },
   "debug_mcp.py": {
     "exists": true,
@@ -98,7 +98,7 @@
   ".cursorrules": {
     "exists": true,
     "size": 10520,
-    "mtime": 1756214289.1573443,
+    "mtime": 1756215986.7807646,
     "hash": "ecf4b85409043636865c71010abcf82d"
   },
   "test_cursor_mcp.py": {
@@ -200,7 +200,7 @@
   "commands.py": {
     "exists": true,
     "size": 21116,
-    "mtime": 1756215741.9812834,
+    "mtime": 1756215986.7864738,
     "hash": "cce5b268326531218b5a8c74b21a4649"
   },
   "test_git_check.py": {
@@ -256,27 +256,27 @@
   },
   ".task-context/tree.html": {
     "exists": true,
-    "size": 20076,
-    "mtime": 1756212339.0985188,
-    "hash": "59f6928bd408b2b87827292231d6b246"
+    "size": 47889,
+    "mtime": 1756216305.1524246,
+    "hash": "a73861b0b58138dd27f26bc52837757b"
   },
   ".task-context/index.html": {
     "exists": true,
     "size": 3130,
-    "mtime": 1756212339.0988245,
-    "hash": "8cb7b6538b84e2f9fb842398f93ea15d"
+    "mtime": 1756216305.153582,
+    "hash": "ae14ef81f53028507857e9fff1a11ce4"
   },
   ".task-context/table.html": {
     "exists": true,
-    "size": 7316,
-    "mtime": 1756212339.0986147,
-    "hash": "a06ae744bbdd2815706a0bc276406fe8"
+    "size": 14059,
+    "mtime": 1756216305.1529064,
+    "hash": "d6f9e826ce4b23d77395fee4a6ce1d1c"
   },
   ".task-context/dashboard.html": {
     "exists": true,
-    "size": 4003,
-    "mtime": 1756212339.0983639,
-    "hash": "b1c279308abcbab4ebb2fc073b7f67d7"
+    "size": 3216,
+    "mtime": 1756216305.152224,
+    "hash": "2827bc1c4ef154917ed0bd9130616b28"
   },
   ".task-context/README.md": {
     "exists": true,
@@ -292,9 +292,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 88475,
-    "mtime": 1756215727.0567527,
-    "hash": "4532b2375726133d3839b25c94eab16d"
+    "size": 93322,
+    "mtime": 1756216326.298453,
+    "hash": "42c64df8519e3fb5cefdfb7670acc8ab"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -310,9 +310,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 20331,
-    "mtime": 1756215729.247466,
-    "hash": "bd40c86c1e81d5095fed031e7e25d3d2"
+    "size": 20536,
+    "mtime": 1756215803.8938131,
+    "hash": "bda8dac026ed7bc21b2072179aa4da37"
   },
   "test_current_task_persistence.py": {
     "exists": true,
@@ -335,7 +335,7 @@
   "task_tree_viewer.py": {
     "exists": true,
     "size": 14423,
-    "mtime": 1756214976.477016,
+    "mtime": 1756215975.7637606,
     "hash": "44b7f60d39690d7e9a1f23bb265b10a3"
   },
   "test_interactive_tree_result.html": {
@@ -370,9 +370,9 @@
   },
   ".task-context/git-tree.html": {
     "exists": true,
-    "size": 57543,
-    "mtime": 1756212339.0987515,
-    "hash": "c285742b94ab740e320e6a159aca5805"
+    "size": 161066,
+    "mtime": 1756216305.1534717,
+    "hash": "7f69b09922afaf8e29e62621b098f053"
   },
   ".test-context/tasks.json": {
     "exists": true,
@@ -593,7 +593,7 @@
   ".cursor/rules/task-context.mdc": {
     "exists": true,
     "size": 18311,
-    "mtime": 1756212916.2063324,
+    "mtime": 1756215986.7807224,
     "hash": "100cdc84bca1635f4cc9b3f89f3342b4"
   },
   "debug_current_task.py": {
@@ -642,7 +642,10 @@
     "hash": "80b9546480dcdbb86a20102644716b2f"
   },
   "test_new_architecture.py": {
-    "exists": false
+    "exists": true,
+    "size": 5926,
+    "mtime": 1756215986.7807453,
+    "hash": "7f78a113840975c92ac8be5a52a932a9"
   },
   "INTERACTIVE_TREE_SUMMARY.md": {
     "exists": false
@@ -751,8 +754,8 @@
   },
   ".task-context/interactions/task_723daa08-295a-4b20-aacd-ffefbd396c44.json": {
     "exists": true,
-    "size": 2907,
-    "mtime": 1756215729.2477887,
-    "hash": "9e04876dd0adb887b92ee2cc9b901f73"
+    "size": 4220,
+    "mtime": 1756215803.8940864,
+    "hash": "a18e665ef737245bd4c48a8b21cea478"
   }
 }
