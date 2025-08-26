@@ -220,23 +220,7 @@
     "task_type": "function",
     "status": "completed",
     "created_at": "2025-08-26T19:45:46.890607",
-    "updated_at": "2025-08-26T19:50:54.096222",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "Using MCP for task management"
-    ],
-    "progress_summary": "Integration test progress"
-  },
-  "752cafad-e4a9-420f-ae63-271e5af7ca0d": {
-    "id": "752cafad-e4a9-420f-ae63-271e5af7ca0d",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T19:50:54.758376",
-    "updated_at": "2025-08-26T19:50:54.792015",
+    "updated_at": "2025-08-26T19:51:42.819568",
     "parent_id": null,
     "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
     "working_files": [],
