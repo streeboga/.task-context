@@ -106,9 +106,9 @@
   },
   "README.md": {
     "exists": true,
-    "size": 4933,
-    "mtime": 1756202452.9892848,
-    "hash": "a863a3ca7a723629714c0c6e88d17d12"
+    "size": 5281,
+    "mtime": 1756217196.8829424,
+    "hash": "87b9f7b66d752b5d3811031db1c5da5c"
   },
   "context_compressor.py": {
     "exists": true,
@@ -277,9 +277,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 106644,
-    "mtime": 1756217129.86564,
-    "hash": "df0a58172c1017780a6615bd6e745793"
+    "size": 107977,
+    "mtime": 1756217180.0839894,
+    "hash": "d0165152b5a850a99f90819629a837c3"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -295,9 +295,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 22242,
-    "mtime": 1756216674.4741516,
-    "hash": "defb7e89bcaee5c7bbb13de6fbb6b2b9"
+    "size": 20845,
+    "mtime": 1756217163.0761,
+    "hash": "680db13cb1c0e486cfe3240b3127f9de"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -334,9 +334,9 @@
   },
   "tests/README.md": {
     "exists": true,
-    "size": 10400,
-    "mtime": 1756217142.3638606,
-    "hash": "55609252ac49a14f37081c2c172e43b6"
+    "size": 15841,
+    "mtime": 1756217166.518832,
+    "hash": "45b07bd93e88f1ccfc71169cee87672c"
   },
   ".task-context/git-tree.html": {
     "exists": false
@@ -753,15 +753,18 @@
     "hash": "6ff2f9c592fa815c55dc268a762ae489"
   },
   "test_\u0443\u0431\u0440\u0430\u0442\u044c_html_\u0440\u0435\u043d\u0434\u0435\u0440\u0438\u043d\u0433_\u0432_task_context.py": {
-    "exists": true,
-    "size": 1119,
-    "mtime": 1756217152.2054365,
-    "hash": "b7cdd016c3d170ef1ff2a4497bba076f"
+    "exists": false
   },
   ".task-context/interactions/task_886f18ac-c713-4e3e-8ca5-6b50b5d104a3.json": {
     "exists": true,
     "size": 2427,
     "mtime": 1756216674.4744,
     "hash": "46e0fc05f63ea37631ecf0ad3528163a"
+  },
+  ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json": {
+    "exists": true,
+    "size": 8418,
+    "mtime": 1756217163.0767465,
+    "hash": "4406f2afd17f53ee64a1f3b9cfe46da5"
   }
 }

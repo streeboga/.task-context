@@ -248,5 +248,72 @@
       "todo_write",
       "mcp_task-context-manager_task_command"
     ]
+  },
+  {
+    "interaction_id": "34ea41f65fa4",
+    "task_id": "51fb55f6-2eeb-46c1-bfd7-762cc5126ce2",
+    "timestamp": "2025-08-26T21:06:38.698758",
+    "user_message": "отметь задачи выполненными все кроме: Убрать HTML рендеринг в .task-context и со статусом Приостановлена",
+    "assistant_response_summary": "Отметил как выполненные все задачи кроме 'Убрать HTML рендеринг в .task-context' (осталась pending) и задач со статусом 'paused' (Реорганизация тестов, Interactive Git-Tree Task Renderer, Тест правильного пути). Успешно завершено 8 задач, одна задача Real-time Task Tree Viewer не завершена из-за синтаксической ошибки в тесте.",
+    "file_changes": [
+      {
+        "file_path": "README.md",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 4933,
+        "size_after": 5281,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/README.md",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 10400,
+        "size_after": 15841,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 106644,
+        "size_after": 107977,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 0,
+        "size_after": 8418,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 22242,
+        "size_after": 20845,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_убрать_html_рендеринг_в_task_context.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:06:38.557589",
+        "size_before": 1119,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "mcp_task-context-manager_list_tasks"
+    ]
   }
 ]
