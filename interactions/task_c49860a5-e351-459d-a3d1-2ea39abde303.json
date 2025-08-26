@@ -1,0 +1,527 @@
+[
+  {
+    "interaction_id": "58d8c53608cd",
+    "task_id": "c49860a5-e351-459d-a3d1-2ea39abde303",
+    "timestamp": "2025-08-26T19:15:27.477584",
+    "user_message": "Test interaction logging",
+    "assistant_response_summary": "Testing the logging system",
+    "file_changes": [
+      {
+        "file_path": "setup_cursor.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5807,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_html_renderer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 2725,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "QUICK_SETUP.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 1347,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 29064,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "debug_mcp.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5312,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "pytest.ini",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 392,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_task_visibility.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5578,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "requirements.txt",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 128,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "LLM_SETUP.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 4224,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TROUBLESHOOTING.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5473,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "CHANGELOG_LLM.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 2941,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "Makefile",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 2341,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "interaction_logger.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 11359,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "METHODOLOGY.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 10604,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "llm_providers.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 9737,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "config.yaml",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 577,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "check_tools.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 2505,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursorrules",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 8054,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_cursor_mcp.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5134,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 4933,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "context_compressor.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 10580,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_example.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 388,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "setup.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 547,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_VISIBILITY_GUIDE.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5253,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_system.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 4325,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "PATH_FIX_GUIDE.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5012,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_manager.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 15148,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_git_integration.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 3303,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "final_test.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5254,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "FILES.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 3267,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_verifier.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 11376,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_llm_integration.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 7677,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TEST_REPORT.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 5799,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "HTML_RENDERER_README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 3873,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_client.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 3538,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "context_store.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 10681,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_interaction_logging.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 8844,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 19177,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_git_check.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 6739,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_minimal.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 249,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "cursor_connection_test.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 6121,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 4984,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_server.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 6271,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_alternative.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 479,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_mcp_server.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 14177,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/__init__.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 34,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_task_manager.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 10698,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_commands.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 15103,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/test_context_store.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 11323,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tree.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 13932,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/index.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 2784,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/table.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 8262,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/dashboard.html",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 3999,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 527,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json.backup",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 13673,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 25872,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/current_task.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:27.416675",
+        "size_before": 0,
+        "size_after": 59,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "test_tool"
+    ]
+  }
+]

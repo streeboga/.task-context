@@ -1,0 +1,344 @@
+{
+  "setup_cursor.py": {
+    "exists": true,
+    "size": 5807,
+    "mtime": 1756202336.1861649,
+    "hash": "d2d0eb240d37f0288bd915e8eea059a2"
+  },
+  "test_html_renderer.py": {
+    "exists": true,
+    "size": 2725,
+    "mtime": 1756207016.0631201,
+    "hash": "1974231aa5bee5bf26dbacab598a9354"
+  },
+  "QUICK_SETUP.md": {
+    "exists": true,
+    "size": 1347,
+    "mtime": 1756207868.3598778,
+    "hash": "556d7f1c7160e43b5fad4a6a0688d02b"
+  },
+  "html_renderer.py": {
+    "exists": true,
+    "size": 29064,
+    "mtime": 1756207940.5606148,
+    "hash": "23b4b95b80e59f6e962fc6700775ad79"
+  },
+  "debug_mcp.py": {
+    "exists": true,
+    "size": 5312,
+    "mtime": 1756209068.6585517,
+    "hash": "cf5fd7b1d2a2fc65a8121a63b73f41d3"
+  },
+  "pytest.ini": {
+    "exists": true,
+    "size": 392,
+    "mtime": 1756205225.1420414,
+    "hash": "ab2020b3b375d92ace3d211d60af13a9"
+  },
+  "test_task_visibility.py": {
+    "exists": true,
+    "size": 5578,
+    "mtime": 1756208181.6781623,
+    "hash": "2bd81a1850a42675252a6220ec70e40f"
+  },
+  "requirements.txt": {
+    "exists": true,
+    "size": 128,
+    "mtime": 1756207534.2173278,
+    "hash": "845970c65307b16f20b187ace2fa512a"
+  },
+  "LLM_SETUP.md": {
+    "exists": true,
+    "size": 4224,
+    "mtime": 1756207868.3583279,
+    "hash": "aac347cc787fc3b03081ac90f5ac313f"
+  },
+  "TROUBLESHOOTING.md": {
+    "exists": true,
+    "size": 5473,
+    "mtime": 1756205228.1964762,
+    "hash": "d22a2eeb2630991e0b18801649c3a876"
+  },
+  "CHANGELOG_LLM.md": {
+    "exists": true,
+    "size": 2941,
+    "mtime": 1756207868.3597226,
+    "hash": "636df47eba20b28088a825f1f30fc89f"
+  },
+  "Makefile": {
+    "exists": true,
+    "size": 2341,
+    "mtime": 1756205225.2366047,
+    "hash": "cb70104c0cf4bb40d4fc7f0e56dcc556"
+  },
+  "interaction_logger.py": {
+    "exists": true,
+    "size": 11359,
+    "mtime": 1756210347.7697659,
+    "hash": "6bf5688f032b52609bd7c24e903f53b0"
+  },
+  "METHODOLOGY.md": {
+    "exists": true,
+    "size": 10604,
+    "mtime": 1756202138.6282644,
+    "hash": "4fa9ad1e4c6dd113d460181f27c92dee"
+  },
+  "llm_providers.py": {
+    "exists": true,
+    "size": 9737,
+    "mtime": 1756207534.222959,
+    "hash": "9ae02aca62266b3f9cfa7ba6ae12a266"
+  },
+  "config.yaml": {
+    "exists": true,
+    "size": 577,
+    "mtime": 1756201616.9962585,
+    "hash": "177a819844bc8518a8f510792a34962d"
+  },
+  "check_tools.py": {
+    "exists": true,
+    "size": 2505,
+    "mtime": 1756205225.775806,
+    "hash": "bff2d8977f974c8724e25dd3460a41ce"
+  },
+  ".cursorrules": {
+    "exists": true,
+    "size": 8054,
+    "mtime": 1756210445.2786305,
+    "hash": "33d34b488e01627bea29f12cac98473e"
+  },
+  "test_cursor_mcp.py": {
+    "exists": true,
+    "size": 5134,
+    "mtime": 1756205228.0171785,
+    "hash": "24cfb7be1867be41baae6afbcdb02f38"
+  },
+  "README.md": {
+    "exists": true,
+    "size": 4933,
+    "mtime": 1756202452.9892848,
+    "hash": "a863a3ca7a723629714c0c6e88d17d12"
+  },
+  "context_compressor.py": {
+    "exists": true,
+    "size": 10580,
+    "mtime": 1756207534.222988,
+    "hash": "4a84f4c39798701acd1efcf2b70e6772"
+  },
+  "mcp_config_example.json": {
+    "exists": true,
+    "size": 388,
+    "mtime": 1756207868.3597462,
+    "hash": "7026f1215437ceae490d2e434a23bae8"
+  },
+  "setup.py": {
+    "exists": true,
+    "size": 547,
+    "mtime": 1756201626.4953961,
+    "hash": "e644e01d6a5fb6e4454e6b7dd94c0103"
+  },
+  "TASK_VISIBILITY_GUIDE.md": {
+    "exists": true,
+    "size": 5253,
+    "mtime": 1756208181.6781883,
+    "hash": "569d9bbbb4dd5d420c466444c8260345"
+  },
+  "test_system.py": {
+    "exists": true,
+    "size": 4325,
+    "mtime": 1756202407.9263258,
+    "hash": "516675e4e834f715702b28378c25067a"
+  },
+  "PATH_FIX_GUIDE.md": {
+    "exists": true,
+    "size": 5012,
+    "mtime": 1756209775.1785955,
+    "hash": "2dfb199791b5eea24fde731bc5712794"
+  },
+  "task_manager.py": {
+    "exists": true,
+    "size": 15148,
+    "mtime": 1756205224.1836052,
+    "hash": "8679df44912867e9b59648aecf8b74d2"
+  },
+  "test_git_integration.py": {
+    "exists": true,
+    "size": 3303,
+    "mtime": 1756205224.2828176,
+    "hash": "e6c5412728ed1ed3c61e27a260385188"
+  },
+  "final_test.py": {
+    "exists": true,
+    "size": 5254,
+    "mtime": 1756205224.3324912,
+    "hash": "922e3e7287b133f9cac92da42eb07a45"
+  },
+  "FILES.md": {
+    "exists": true,
+    "size": 3267,
+    "mtime": 1756202444.5844812,
+    "hash": "3102dc528ba95f1407966511c60d482f"
+  },
+  "task_verifier.py": {
+    "exists": true,
+    "size": 11376,
+    "mtime": 1756206775.099027,
+    "hash": "2787afd40b58b9d25b25afa89cb2d192"
+  },
+  "test_llm_integration.py": {
+    "exists": true,
+    "size": 7677,
+    "mtime": 1756207685.5113757,
+    "hash": "dcf5312e0cfb9597042f839ce5867d6b"
+  },
+  "TEST_REPORT.md": {
+    "exists": true,
+    "size": 5799,
+    "mtime": 1756205225.6962812,
+    "hash": "87d054c45d1c4e55190c8ff8a4d83c20"
+  },
+  "HTML_RENDERER_README.md": {
+    "exists": true,
+    "size": 3873,
+    "mtime": 1756207016.0631387,
+    "hash": "ec15c316164371661e927aa37b7eb060"
+  },
+  "test_client.py": {
+    "exists": true,
+    "size": 3538,
+    "mtime": 1756205224.004997,
+    "hash": "0c59e870ee35b7003f5c2e53f83ff604"
+  },
+  "context_store.py": {
+    "exists": true,
+    "size": 10681,
+    "mtime": 1756205223.598541,
+    "hash": "715f33bc3f02e894d537afec9d0e1da1"
+  },
+  "test_interaction_logging.py": {
+    "exists": true,
+    "size": 8844,
+    "mtime": 1756210522.4438903,
+    "hash": "ea53148379d2bf3931b7d3fea624b557"
+  },
+  "commands.py": {
+    "exists": true,
+    "size": 19177,
+    "mtime": 1756209979.0706666,
+    "hash": "e994603e4b5b4879b43dae3dca71995a"
+  },
+  "test_git_check.py": {
+    "exists": true,
+    "size": 6739,
+    "mtime": 1756210521.5128746,
+    "hash": "e344d2f853c5c6ce255b8407f891662e"
+  },
+  "mcp_config_minimal.json": {
+    "exists": true,
+    "size": 249,
+    "mtime": 1756209068.6674843,
+    "hash": "619237a4ee1af04d6218cc6665a28c62"
+  },
+  "cursor_connection_test.py": {
+    "exists": true,
+    "size": 6121,
+    "mtime": 1756209068.6585755,
+    "hash": "b65aab2fd6471ab71fffdcdc8fab4603"
+  },
+  "mcp.json": {
+    "exists": true,
+    "size": 4984,
+    "mtime": 1756207868.3597038,
+    "hash": "2e38103df4015b143d6f5b29045fcb64"
+  },
+  "mcp_server.py": {
+    "exists": true,
+    "size": 6271,
+    "mtime": 1756210384.9473026,
+    "hash": "c5a898a2fabfac306cbfa5004f1b8248"
+  },
+  "mcp_config_alternative.json": {
+    "exists": true,
+    "size": 479,
+    "mtime": 1756209068.6586702,
+    "hash": "73f5020a3109c117555dca1c0f37308b"
+  },
+  "tests/test_mcp_server.py": {
+    "exists": true,
+    "size": 14177,
+    "mtime": 1756209977.7224352,
+    "hash": "3c0ce63a336e54c65439a5f4dd036895"
+  },
+  "tests/__init__.py": {
+    "exists": true,
+    "size": 34,
+    "mtime": 1756205224.4124572,
+    "hash": "87da8c9eab03ef4e4d7242a7296bbb66"
+  },
+  "tests/test_task_manager.py": {
+    "exists": true,
+    "size": 10698,
+    "mtime": 1756205224.7141495,
+    "hash": "791a5fb5a386f725fc811e0806d3bdae"
+  },
+  "tests/test_commands.py": {
+    "exists": true,
+    "size": 15103,
+    "mtime": 1756205224.8636532,
+    "hash": "78c5e047a4bd5638046f8bdaddd6d679"
+  },
+  "tests/test_context_store.py": {
+    "exists": true,
+    "size": 11323,
+    "mtime": 1756205225.4837012,
+    "hash": "0247a2b72b3a5b9a41dbd15605cf686b"
+  },
+  ".task-context/tree.html": {
+    "exists": true,
+    "size": 13932,
+    "mtime": 1756210317.9674778,
+    "hash": "3561416d053f7afb4440bde2efd8f27f"
+  },
+  ".task-context/index.html": {
+    "exists": true,
+    "size": 2784,
+    "mtime": 1756210317.967806,
+    "hash": "b34d27911ec8c62d4819c564f84f4ed5"
+  },
+  ".task-context/table.html": {
+    "exists": true,
+    "size": 8262,
+    "mtime": 1756210317.9676638,
+    "hash": "a58a5a0af1b0ee10b24aceef397ac26f"
+  },
+  ".task-context/dashboard.html": {
+    "exists": true,
+    "size": 3999,
+    "mtime": 1756210317.9673069,
+    "hash": "25840a851bcbe8fb8fd6f5d8f8e41bf1"
+  },
+  ".task-context/README.md": {
+    "exists": true,
+    "size": 527,
+    "mtime": 1756203698.7309368,
+    "hash": "e21ab97e48625e44570bbb478cce3b79"
+  },
+  ".task-context/tasks.json.backup": {
+    "exists": true,
+    "size": 13673,
+    "mtime": 1756209723.2141175,
+    "hash": "217dfb5d116b8f05b6a183d347d08ed3"
+  },
+  ".task-context/tasks.json": {
+    "exists": true,
+    "size": 25872,
+    "mtime": 1756210490.0483384,
+    "hash": "d15429ddb4ed34c80ebd18cbb00e9e35"
+  },
+  ".task-context/current_task.json": {
+    "exists": true,
+    "size": 59,
+    "mtime": 1756210490.048525,
+    "hash": "e0519537cc14d19148f8ce91f3c04d83"
+  }
+}
