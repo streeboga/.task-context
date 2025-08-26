@@ -194,5 +194,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "f1f06e71-b1ce-457f-b92e-65e74ae6897d": {
+    "id": "f1f06e71-b1ce-457f-b92e-65e74ae6897d",
+    "name": "Test Integration",
+    "objective": "Test MCP integration",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T19:05:52.581884",
+    "updated_at": "2025-08-26T19:05:52.581884",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
