@@ -623,5 +623,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "737e8ff5-a40b-4ba3-983e-d1acd6264e6b": {
+    "id": "737e8ff5-a40b-4ba3-983e-d1acd6264e6b",
+    "name": "\u041c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u044b init",
+    "objective": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u0443 init \u0447\u0442\u043e\u0431\u044b \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c task-context.mdc \u0432 .cursor/rules/ \u0432\u043c\u0435\u0441\u0442\u043e .cursorrules",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T21:24:51.429494",
+    "updated_at": "2025-08-26T21:24:51.429494",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_init():\n    # Test that \u041c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u044b init works correctly\n    # TODO: Implement specific test cases for \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u0443 init \u0447\u0442\u043e\u0431\u044b \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c task-context.mdc \u0432 .cursor/rules/ \u0432\u043c\u0435\u0441\u0442\u043e .cursorrules\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
