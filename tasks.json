@@ -134,5 +134,19 @@
       "Using MCP for task management"
     ],
     "progress_summary": "Integration test progress"
+  },
+  "b2254652-b2c5-4ed5-bd2f-5a1dae44e814": {
+    "id": "b2254652-b2c5-4ed5-bd2f-5a1dae44e814",
+    "name": "Test Integration",
+    "objective": "Test MCP integration",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T19:05:16.321468",
+    "updated_at": "2025-08-26T19:05:16.321468",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
