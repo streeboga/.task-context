@@ -1,0 +1,59 @@
+[
+  {
+    "interaction_id": "5f3b830a1218",
+    "task_id": "0978cd7e-eef4-46d4-8dc7-6df179b21834",
+    "timestamp": "2025-08-26T19:15:43.043007",
+    "user_message": "Test interaction logging",
+    "assistant_response_summary": "Testing the logging system",
+    "file_changes": [
+      {
+        "file_path": "interaction_logger.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:15:42.939579",
+        "size_before": 11359,
+        "size_after": 11434,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:15:42.939579",
+        "size_before": 25872,
+        "size_after": 25870,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/current_task.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T19:15:42.939579",
+        "size_before": 59,
+        "size_after": 59,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_c49860a5-e351-459d-a3d1-2ea39abde303.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:42.939579",
+        "size_before": 0,
+        "size_after": 15061,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T19:15:42.939579",
+        "size_before": 0,
+        "size_after": 8507,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "test_tool"
+    ]
+  }
+]
