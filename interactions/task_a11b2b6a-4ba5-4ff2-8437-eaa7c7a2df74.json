@@ -1,0 +1,441 @@
+[
+  {
+    "interaction_id": "f28920a82b24",
+    "task_id": "a11b2b6a-4ba5-4ff2-8437-eaa7c7a2df74",
+    "timestamp": "2025-08-26T21:25:53.650155",
+    "user_message": "теперь удали всю ненужную залупу из корня, что-то перемести в docs срач развел",
+    "assistant_response_summary": "Полностью очистил корень проекта от мусора: переместил всю документацию в docs/, удалил дебаг файлы, бэкапы, лишние конфиги MCP, __pycache__ папки, служебные файлы. Создал .gitignore и docs/README.md. Обновил основной README со ссылкой на docs/. Корень теперь чистый и организованный.",
+    "file_changes": [
+      {
+        "file_path": "README.md",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5281,
+        "size_after": 5190,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 22731,
+        "size_after": 23318,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/QUICK_SETUP.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 1347,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/TASK_TREE_VIEWER_README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 9021,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/LLM_SETUP.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 4224,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/TROUBLESHOOTING.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 5473,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/CHANGELOG_LLM.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 2941,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/METHODOLOGY.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 10604,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 1878,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/TASK_VISIBILITY_GUIDE.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 5253,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/PATH_FIX_GUIDE.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 5012,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/FILES.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 3267,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/HTML_RENDERER_README.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 3873,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "docs/example_usage.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 0,
+        "size_after": 1971,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 111839,
+        "size_after": 114549,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 13408,
+        "size_after": 15141,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 21565,
+        "size_after": 21566,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "setup_cursor.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5807,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "QUICK_SETUP.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 1347,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "debug_mcp.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5312,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "LLM_SETUP.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 4224,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TROUBLESHOOTING.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5473,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "CHANGELOG_LLM.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 2941,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "METHODOLOGY.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 10604,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "check_tools.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 2505,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursorrules",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 15546,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_example.json",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 388,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_VISIBILITY_GUIDE.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5253,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "PATH_FIX_GUIDE.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5012,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "final_test.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 5254,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "FILES.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 3267,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_verifier.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 11376,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "HTML_RENDERER_README.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 3873,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_minimal.json",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 249,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "cursor_connection_test.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 6121,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "mcp_config_alternative.json",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 479,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json.backup",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 13673,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_TREE_VIEWER_README.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 9021,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "example_usage.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 1971,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".test-context/tasks.json",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 1172,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".test-context/current_task.json",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 59,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "debug_current_task.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 2432,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer_old.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 33959,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer_new.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 15113,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "fix_indents.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 1052,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands_backup.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 21089,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "fix_commands_syntax.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T21:25:53.535917",
+        "size_before": 2137,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "run_terminal_cmd",
+      "write",
+      "search_replace",
+      "todo_write",
+      "list_dir"
+    ]
+  }
+]
