@@ -355,113 +355,13 @@
     "task_type": "function",
     "status": "pending",
     "created_at": "2025-08-26T20:15:50.763461",
-    "updated_at": "2025-08-26T20:15:50.763461",
+    "updated_at": "2025-08-26T20:17:42.934325",
     "parent_id": null,
     "acceptance_test": "\ndef test_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443_\u0442\u0435\u0441\u0442\u043e\u0432():\n    # Test that \u041e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443 \u0442\u0435\u0441\u0442\u043e\u0432 works correctly\n    # TODO: Implement specific test cases for \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443 \u043f\u0430\u043f\u043e\u043a \u0434\u043b\u044f \u0442\u0435\u0441\u0442\u043e\u0432 \u0438 \u0446\u0435\u043d\u0442\u0440\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a, \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0432 Cursor\n    pass\n",
     "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "f77b5981-3d1e-4d0c-afa0-490460fe5223": {
-    "id": "f77b5981-3d1e-4d0c-afa0-490460fe5223",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:11.566634",
-    "updated_at": "2025-08-26T20:17:11.566634",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "50dc9694-9fb5-416d-b871-18f1c749a477": {
-    "id": "50dc9694-9fb5-416d-b871-18f1c749a477",
-    "name": "MCP \u0422\u0435\u0441\u0442",
-    "objective": "\u0422\u0435\u0441\u0442 \u043d\u043e\u0432\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u0447\u0435\u0440\u0435\u0437 MCP",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:12.923705",
-    "updated_at": "2025-08-26T20:17:12.995710",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_mcp_\u0442\u0435\u0441\u0442():\n    # Test that MCP \u0422\u0435\u0441\u0442 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442 \u043d\u043e\u0432\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u0447\u0435\u0440\u0435\u0437 MCP\n    pass\n",
-    "working_files": [],
     "decisions": [
-      "\u0420\u0435\u0448\u0435\u043d\u0438\u0435: \u043d\u043e\u0432\u0430\u044f \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043e\u0442\u043b\u0438\u0447\u043d\u043e"
+      "\u041f\u0440\u0438\u043d\u044f\u0442\u043e \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443 tests/unit \u0438 tests/integration. \u0421\u0442\u0430\u0440\u044b\u0435 unit \u0442\u0435\u0441\u0442\u044b \u0441\u043b\u043e\u043c\u0430\u043b\u0438\u0441\u044c \u043f\u043e\u0441\u043b\u0435 \u0440\u0435\u0444\u0430\u043a\u0442\u043e\u0440\u0438\u043d\u0433\u0430 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b (\u0443\u0431\u0440\u0430\u043b\u0438 current_task_id), \u043d\u043e \u044d\u0442\u043e \u043e\u0436\u0438\u0434\u0430\u0435\u043c\u043e. \u041d\u043e\u0432\u044b\u0435 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0442\u0435\u0441\u0442\u044b \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0447\u0442\u043e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e."
     ],
-    "progress_summary": "MCP \u0442\u0435\u0441\u0442 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430"
-  },
-  "c8f73a2e-0ceb-4ce8-a819-8ae88206fe5a": {
-    "id": "c8f73a2e-0ceb-4ce8-a819-8ae88206fe5a",
-    "name": "MCP \u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430",
-    "objective": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 \u0447\u0435\u0440\u0435\u0437 MCP",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:12.961459",
-    "updated_at": "2025-08-26T20:17:12.961459",
-    "parent_id": "50dc9694-9fb5-416d-b871-18f1c749a477",
-    "acceptance_test": "\ndef test_mcp_\u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430():\n    # Test that MCP \u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 \u0447\u0435\u0440\u0435\u0437 MCP\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "5a442320-1ae7-4649-bf38-5156f942591a": {
-    "id": "5a442320-1ae7-4649-bf38-5156f942591a",
-    "name": "\u0422\u0435\u0441\u0442 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
-    "objective": "\u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0431\u0435\u0437 current_task_id",
-    "task_type": "function",
-    "status": "in_progress",
-    "created_at": "2025-08-26T20:17:13.586886",
-    "updated_at": "2025-08-26T20:17:13.699785",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_\u0442\u0435\u0441\u0442_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b():\n    # Test that \u0422\u0435\u0441\u0442 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b works correctly\n    # TODO: Implement specific test cases for \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0431\u0435\u0437 current_task_id\n    pass\n",
-    "working_files": [],
-    "decisions": [
-      "\u0420\u0435\u0448\u0435\u043d\u0438\u0435: \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0443"
-    ],
-    "progress_summary": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441"
-  },
-  "0f2c2d22-76ac-4911-9085-3067ddb5ecd5": {
-    "id": "0f2c2d22-76ac-4911-9085-3067ddb5ecd5",
-    "name": "\u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430",
-    "objective": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:13.618425",
-    "updated_at": "2025-08-26T20:17:13.618425",
-    "parent_id": "5a442320-1ae7-4649-bf38-5156f942591a",
-    "acceptance_test": "\ndef test_\u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430():\n    # Test that \u041f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0437\u0430\u0434\u0430\u0447\u0430\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "7dd81b0d-bc8d-41b1-8a46-6a83a526422a": {
-    "id": "7dd81b0d-bc8d-41b1-8a46-6a83a526422a",
-    "name": "\u0417\u0430\u0434\u0430\u0447\u0430 \u0447\u0430\u0442\u0430 2",
-    "objective": "\u0422\u0435\u0441\u0442 \u0438\u0437\u043e\u043b\u044f\u0446\u0438\u0438",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:13.727472",
-    "updated_at": "2025-08-26T20:17:13.727472",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_\u0437\u0430\u0434\u0430\u0447\u0430_\u0447\u0430\u0442\u0430_2():\n    # Test that \u0417\u0430\u0434\u0430\u0447\u0430 \u0447\u0430\u0442\u0430 2 works correctly\n    # TODO: Implement specific test cases for \u0422\u0435\u0441\u0442 \u0438\u0437\u043e\u043b\u044f\u0446\u0438\u0438\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
-  },
-  "98c9e279-aa40-4ebc-8b6f-51349c444912": {
-    "id": "98c9e279-aa40-4ebc-8b6f-51349c444912",
-    "name": "Test Task",
-    "objective": "Test the MCP server functionality",
-    "task_type": "function",
-    "status": "pending",
-    "created_at": "2025-08-26T20:17:14.044957",
-    "updated_at": "2025-08-26T20:17:14.044957",
-    "parent_id": null,
-    "acceptance_test": "\ndef test_test_task():\n    # Test that Test Task works correctly\n    # TODO: Implement specific test cases for Test the MCP server functionality\n    pass\n",
-    "working_files": [],
-    "decisions": [],
-    "progress_summary": null
+    "progress_summary": "\u0421\u043e\u0437\u0434\u0430\u043d\u0430 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0430\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u0442\u0435\u0441\u0442\u043e\u0432 \u0441 \u043f\u0430\u043f\u043a\u0430\u043c\u0438 tests/unit \u0438 tests/integration. \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0446\u0435\u043d\u0442\u0440\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0442\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0440\u0430\u043d\u043d\u0435\u0440 tests/run_all.py. \u0421\u043e\u0437\u0434\u0430\u043d Makefile \u0441 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0434\u043b\u044f \u0437\u0430\u043f\u0443\u0441\u043a\u0430 \u0442\u0435\u0441\u0442\u043e\u0432. \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u044b \u0441\u0442\u0440\u043e\u0433\u0438\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0432 .cursorrules \u0437\u0430\u043f\u0440\u0435\u0449\u0430\u044e\u0449\u0438\u0435 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0442\u0435\u0441\u0442\u043e\u0432 \u0432 \u043a\u043e\u0440\u043d\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430. \u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0442\u0435\u0441\u0442\u044b \u043d\u043e\u0432\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u043e\u0442\u043b\u0438\u0447\u043d\u043e!"
   }
 }
