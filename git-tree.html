@@ -1,0 +1,551 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Context Manager - Interactive Git Tree</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace; 
+            background: #0d1117; 
+            color: #c9d1d9; 
+            line-height: 1.5;
+        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        .header { 
+            background: #161b22; 
+            padding: 20px; 
+            border-radius: 8px; 
+            border: 1px solid #30363d; 
+            margin-bottom: 20px; 
+        }
+        .header h1 { color: #f0f6fc; margin-bottom: 8px; }
+        .header p { color: #8b949e; }
+        
+        .navigation { display: flex; gap: 12px; margin-bottom: 20px; }
+        .nav-btn { 
+            padding: 8px 16px; 
+            background: #21262d; 
+            color: #f0f6fc; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            border: 1px solid #30363d;
+            transition: all 0.2s;
+        }
+        .nav-btn:hover { background: #30363d; }
+        
+        .git-tree-container { 
+            background: #0d1117; 
+            padding: 20px; 
+            border-radius: 8px; 
+            border: 1px solid #21262d;
+            position: relative;
+        }
+        
+        .git-tree { font-family: 'SF Mono', monospace; font-size: 14px; }
+        .tree-line { 
+            display: flex; 
+            align-items: center; 
+            padding: 4px 0; 
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .tree-line:hover { background: rgba(56, 139, 253, 0.1); border-radius: 4px; }
+        
+        .tree-connector { color: #6e7681; margin-right: 8px; min-width: 200px; }
+        .task-node { 
+            display: flex; 
+            align-items: center; 
+            flex: 1;
+        }
+        
+        .status-icon { margin-right: 8px; font-size: 16px; }
+        .task-name { font-weight: 600; margin-right: 12px; }
+        .task-meta { color: #8b949e; font-size: 12px; }
+        
+        /* Статусы задач */
+        .status-pending { color: #f85149; }
+        .status-in_progress { color: #3fb950; }
+        .status-paused { color: #d29922; }
+        .status-completed { color: #8b949e; }
+        .status-cancelled { color: #f85149; }
+        
+        /* Детальная панель */
+        .detail-panel { 
+            position: fixed; 
+            right: -400px; 
+            top: 0; 
+            width: 400px; 
+            height: 100vh; 
+            background: #161b22; 
+            border-left: 1px solid #30363d;
+            transition: right 0.3s ease;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .detail-panel.active { right: 0; }
+        
+        .detail-header { 
+            padding: 20px; 
+            border-bottom: 1px solid #30363d; 
+            background: #0d1117;
+        }
+        .detail-content { padding: 20px; }
+        
+        .close-btn { 
+            float: right; 
+            background: none; 
+            border: none; 
+            color: #8b949e; 
+            font-size: 20px; 
+            cursor: pointer;
+        }
+        .close-btn:hover { color: #f0f6fc; }
+        
+        .detail-section { margin-bottom: 20px; }
+        .detail-section h3 { color: #f0f6fc; margin-bottom: 8px; font-size: 14px; }
+        .detail-section p { color: #c9d1d9; font-size: 13px; line-height: 1.4; }
+        
+        .cursor-link { 
+            display: inline-block; 
+            padding: 8px 12px; 
+            background: #238636; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-size: 12px;
+            margin-top: 8px;
+        }
+        .cursor-link:hover { background: #2ea043; }
+        
+        .working-files { 
+            background: #0d1117; 
+            border: 1px solid #21262d; 
+            border-radius: 6px; 
+            padding: 8px; 
+            margin-top: 8px;
+        }
+        .file-item { 
+            color: #79c0ff; 
+            font-size: 12px; 
+            padding: 2px 0;
+        }
+        
+        .decisions-list { 
+            background: #0d1117; 
+            border: 1px solid #21262d; 
+            border-radius: 6px; 
+            padding: 8px; 
+            margin-top: 8px;
+        }
+        .decision-item { 
+            color: #c9d1d9; 
+            font-size: 12px; 
+            padding: 4px 0; 
+            border-bottom: 1px solid #21262d;
+        }
+        .decision-item:last-child { border-bottom: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌳 Interactive Git Tree</h1>
+            <p>Интерактивное дерево задач в стиле git с детальной информацией</p>
+        </div>
+        
+        <div class="navigation">
+            <a href="dashboard.html" class="nav-btn">📊 Dashboard</a>
+            <a href="tree.html" class="nav-btn">🌳 Дерево задач</a>
+            <a href="table.html" class="nav-btn">📋 Таблица</a>
+            <a href="git-tree.html" class="nav-btn">🔀 Git Tree</a>
+        </div>
+        
+        <div class="git-tree-container">
+            <div class="git-tree">
+                
+            <div class="tree-line">
+                <span class="tree-connector"></span>
+                <div class="task-node">
+                    <span class="status-icon">🔄</span>
+                    <span class="task-name" style="color: #3b82f6;">В работе (1)</span>
+                </div>
+            </div>
+            
+                <div class="tree-line" onclick="showTaskDetail('b694c86c-c295-4cde-bdfd-95b69ed38f86')">
+                    <span class="tree-connector">└── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-in_progress">Тест LLM компрессии</span>
+                        <span class="task-meta">function • 12м</span>
+                    </div>
+                </div>
+                
+            <div class="tree-line">
+                <span class="tree-connector"></span>
+                <div class="task-node">
+                    <span class="status-icon">⏸️</span>
+                    <span class="task-name" style="color: #f59e0b;">Приостановлена (1)</span>
+                </div>
+            </div>
+            
+                <div class="tree-line" onclick="showTaskDetail('f5eb39e7-3ccf-4c03-8d4a-298ef41c44da')">
+                    <span class="tree-connector">└── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-paused">Тест правильного пути</span>
+                        <span class="task-meta">function • 16м</span>
+                    </div>
+                </div>
+                
+            <div class="tree-line">
+                <span class="tree-connector"></span>
+                <div class="task-node">
+                    <span class="status-icon">⏳</span>
+                    <span class="task-name" style="color: #6b7280;">Ожидает (1)</span>
+                </div>
+            </div>
+            
+                <div class="tree-line" onclick="showTaskDetail('08fa4685-dca4-4e5d-8a42-74e58538ad15')">
+                    <span class="tree-connector">└── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-pending">Interactive Git-Tree Task Renderer</span>
+                        <span class="task-meta">function • 2м</span>
+                    </div>
+                </div>
+                
+            <div class="tree-line">
+                <span class="tree-connector"></span>
+                <div class="task-node">
+                    <span class="status-icon">✅</span>
+                    <span class="task-name" style="color: #10b981;">Завершена (7)</span>
+                </div>
+            </div>
+            
+                <div class="tree-line" onclick="showTaskDetail('390228ee-c406-48fd-9c7f-6aa6fbfc172d')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">HTML Task Renderer</span>
+                        <span class="task-meta">function • 1ч 6м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('0978cd7e-eef4-46d4-8dc7-6df179b21834')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Проверить работу git</span>
+                        <span class="task-meta">function • 1ч 11м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('c49860a5-e351-459d-a3d1-2ea39abde303')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Логирование взаимодействий</span>
+                        <span class="task-meta">feature • 3м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('75ceaf14-2b29-4408-98dc-938761b234ab')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Прогон всех тестов</span>
+                        <span class="task-meta">function • 1м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('75588075-b6a1-4955-81a2-5aaf678e8046')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Проверка сохранения контекста</span>
+                        <span class="task-meta">function • 0м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('808b5edc-7d79-4bc1-acf5-9890c61e45ac')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Fix MCP Integration</span>
+                        <span class="task-meta">function • 0м</span>
+                    </div>
+                </div>
+                
+                <div class="tree-line" onclick="showTaskDetail('a9990123-63c9-4d5f-bdd8-ee22677a5d12')">
+                    <span class="tree-connector">└── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-completed">Compact HTML Layout</span>
+                        <span class="task-meta">function • 1м</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Детальная панель -->
+    <div class="detail-panel" id="detailPanel">
+        <div class="detail-header">
+            <button class="close-btn" onclick="closeDetail()">&times;</button>
+            <h2 id="detailTitle">Детали задачи</h2>
+        </div>
+        <div class="detail-content" id="detailContent">
+            <!-- Содержимое будет заполнено JavaScript -->
+        </div>
+    </div>
+    
+    <script>
+        const tasks = {
+  "0978cd7e-eef4-46d4-8dc7-6df179b21834": {
+    "id": "0978cd7e-eef4-46d4-8dc7-6df179b21834",
+    "name": "Проверить работу git",
+    "objective": "Убедиться что git корректно отслеживает изменения в task-context",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T18:04:50.812215",
+    "updated_at": "2025-08-26T19:16:06.634968",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Git корректно работает - все операции с задачами автоматически коммитятся, история сохраняется",
+      "Создал отдельный тест test_git_check.py для проверки функциональности git, все проверки прошли успешно"
+    ],
+    "progress_summary": "Успешно проверил работу git: создал и запустил тест, который подтвердил что git корректно отслеживает все файлы задач и ведет историю коммитов"
+  },
+  "390228ee-c406-48fd-9c7f-6aa6fbfc172d": {
+    "id": "390228ee-c406-48fd-9c7f-6aa6fbfc172d",
+    "name": "HTML Task Renderer",
+    "objective": "Добавить библиотеку для рендеринга HTML с задачами и графом статусов, подсветкой активных задач и табличным представлением",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T18:11:15.835552",
+    "updated_at": "2025-08-26T19:18:03.984044",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Выбрана архитектура с отдельной папкой interactions для каждой задачи. Используется MD5 хеширование для отслеживания изменений файлов. Логи сохраняются в JSON формате с полной информацией о взаимодействиях. Добавлены правила в .cursorrules для обязательного логирования каждого взаимодействия."
+    ],
+    "progress_summary": "Система автоматического логирования взаимодействий полностью реализована и протестирована. Создан InteractionLogger класс, добавлены MCP tools (get_interactions, log_user_interaction), обновлены .cursorrules, интегрировано в MCP сервер. Система отслеживает сообщения пользователя, изменения файлов, используемые инструменты и сохраняет все в JSON файлы по задачам."
+  },
+  "a9990123-63c9-4d5f-bdd8-ee22677a5d12": {
+    "id": "a9990123-63c9-4d5f-bdd8-ee22677a5d12",
+    "name": "Compact HTML Layout",
+    "objective": "Сделать HTML-рендерер более компактным - уменьшить отступы, размеры элементов и улучшить плотность информации",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T18:30:10.129555",
+    "updated_at": "2025-08-26T18:32:08.944245",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
+  },
+  "808b5edc-7d79-4bc1-acf5-9890c61e45ac": {
+    "id": "808b5edc-7d79-4bc1-acf5-9890c61e45ac",
+    "name": "Fix MCP Integration",
+    "objective": "Исправить интеграцию MCP - команда /task render должна работать через MCP сервер, а не через прямой вызов кода",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T18:47:16.574938",
+    "updated_at": "2025-08-26T18:47:28.342793",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
+  },
+  "75588075-b6a1-4955-81a2-5aaf678e8046": {
+    "id": "75588075-b6a1-4955-81a2-5aaf678e8046",
+    "name": "Проверка сохранения контекста",
+    "objective": "Протестировать сохранение и восстановление контекста задач",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T18:58:49.036552",
+    "updated_at": "2025-08-26T18:59:48.040917",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Решено использовать MCP инструменты для тестирования. Проверяем сохранение состояния задач и восстановление контекста.",
+      "Подтверждено: система сохраняет состояние в JSON файлы, ведет Git историю изменений, корректно восстанавливает контекст при возобновлении задач. MCP инструменты работают стабильно."
+    ],
+    "progress_summary": "Проверка сохранения контекста завершена успешно. Все операции работают корректно: создание задач, сохранение прогресса, приостановка, возобновление. Git интеграция функционирует правильно."
+  },
+  "f5eb39e7-3ccf-4c03-8d4a-298ef41c44da": {
+    "id": "f5eb39e7-3ccf-4c03-8d4a-298ef41c44da",
+    "name": "Тест правильного пути",
+    "objective": "Проверить что задачи сохраняются в папку проекта",
+    "status": "paused",
+    "task_type": "function",
+    "created_at": "2025-08-26T19:01:46.918840",
+    "updated_at": "2025-08-26T19:18:41.262541",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
+  },
+  "75ceaf14-2b29-4408-98dc-938761b234ab": {
+    "id": "75ceaf14-2b29-4408-98dc-938761b234ab",
+    "name": "Прогон всех тестов",
+    "objective": "Запустить все тесты системы и убедиться что они работают адекватно",
+    "status": "completed",
+    "task_type": "function",
+    "created_at": "2025-08-26T19:04:30.957251",
+    "updated_at": "2025-08-26T19:06:05.032523",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Подтверждено: система полностью функциональна, все тесты проходят, MCP сервер работает корректно, задачи сохраняются в правильную папку проекта, Git интеграция работает, видимость задач обеспечена."
+    ],
+    "progress_summary": "Все тесты системы успешно пройдены. Исправлен один упавший тест в test_mcp_server.py. Проверены юнит-тесты (86 тестов), интеграционные тесты, тесты MCP сервера, тесты видимости задач. Покрытие кода составляет 49%. Все компоненты работают адекватно."
+  },
+  "b694c86c-c295-4cde-bdfd-95b69ed38f86": {
+    "id": "b694c86c-c295-4cde-bdfd-95b69ed38f86",
+    "name": "Тест LLM компрессии",
+    "objective": "Проверяем работу OpenAI для сжатия контекста через MCP",
+    "status": "in_progress",
+    "task_type": "function",
+    "created_at": "2025-08-26T19:09:03.644041",
+    "updated_at": "2025-08-26T19:21:33.564660",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Использование OpenAI API через mcp.json конфигурацию. Добавлена поддержка Anthropic как альтернативы. Реализован автоматический выбор доступного провайдера."
+    ],
+    "progress_summary": "### Summary задачи: Тест LLM компрессии\n\n1. **Основная цель задачи**: Проверка эффективности работы OpenAI для сжатия контекста с использованием механизма MCP (Multi-Context Processing).\n\n2. **Ключевые решения и выводы**: \n   - Принято решение использовать OpenAI API, настроенное через конфигурационный файл mcp.json.\n   - Добавлена поддержка альтернативного провайдера Anthropic для повышения гибкости.\n   - Реализован механизм автоматического выбора доступного провайдера, что улучшает надежность и производительность системы.\n\n3. **Текущий статус и следующие шаги**: \n   - На данный момент задача находится на стадии тестирования, проводятся проверки работы сжатия контекста.\n   - Следующие шаги включают анализ результатов тестирования и, при необходимости, оптимизацию конфигурации для повышения качества сжатия.\n\n4. **Важные файлы и функции**: \n   - Основной файл конфигурации: `mcp.json`.\n   - Ключевые функции: интеграция с OpenAI API и механизм автоматического выбора провайдера."
+  },
+  "c49860a5-e351-459d-a3d1-2ea39abde303": {
+    "id": "c49860a5-e351-459d-a3d1-2ea39abde303",
+    "name": "Логирование взаимодействий",
+    "objective": "Добавить автоматическое сохранение сообщений пользователя и изменений файлов в контекст задачи",
+    "status": "completed",
+    "task_type": "feature",
+    "created_at": "2025-08-26T19:11:38.616742",
+    "updated_at": "2025-08-26T19:15:34.036966",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
+  },
+  "08fa4685-dca4-4e5d-8a42-74e58538ad15": {
+    "id": "08fa4685-dca4-4e5d-8a42-74e58538ad15",
+    "name": "Interactive Git-Tree Task Renderer",
+    "objective": "Создать интерактивный рендер задач в виде git-дерева с hover/click детализацией и диплинками в Cursor",
+    "status": "pending",
+    "task_type": "function",
+    "created_at": "2025-08-26T19:18:41.300567",
+    "updated_at": "2025-08-26T19:20:59.953234",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [
+      "Создан полноценный тест test_тест_правильного_пути.py который проверяет корректность путей сохранения задач. Тест подтверждает что система сохраняет данные в правильное место."
+    ],
+    "progress_summary": "Тест правильного пути завершен успешно. Создан и протестирован acceptance test, который проверяет что задачи сохраняются в правильную папку проекта (.task-context в корне). Все проверки прошли успешно."
+  }
+};
+        
+        function showTaskDetail(taskId) {
+            const task = tasks[taskId];
+            if (!task) return;
+            
+            const panel = document.getElementById('detailPanel');
+            const title = document.getElementById('detailTitle');
+            const content = document.getElementById('detailContent');
+            
+            title.textContent = task.name;
+            
+            const cursorLink = `cursor://file/${encodeURIComponent(window.location.origin)}?task=${taskId}`;
+            
+            content.innerHTML = `
+                <div class="detail-section">
+                    <h3>📋 Цель задачи</h3>
+                    <p>${task.objective}</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>📊 Статус</h3>
+                    <p class="status-${task.status}">${getStatusLabel(task.status)}</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>🏷️ Тип</h3>
+                    <p>${task.task_type}</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>📅 Временные метки</h3>
+                    <p><strong>Создана:</strong> ${formatDate(task.created_at)}</p>
+                    <p><strong>Обновлена:</strong> ${formatDate(task.updated_at)}</p>
+                </div>
+                
+                ${task.working_files && task.working_files.length > 0 ? `
+                <div class="detail-section">
+                    <h3>📁 Рабочие файлы</h3>
+                    <div class="working-files">
+                        ${task.working_files.map(file => `<div class="file-item">${file}</div>`).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                ${task.decisions && task.decisions.length > 0 ? `
+                <div class="detail-section">
+                    <h3>💡 Принятые решения</h3>
+                    <div class="decisions-list">
+                        ${task.decisions.map(decision => `<div class="decision-item">${decision}</div>`).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                ${task.progress_summary ? `
+                <div class="detail-section">
+                    <h3>📝 Прогресс</h3>
+                    <p>${task.progress_summary}</p>
+                </div>
+                ` : ''}
+                
+                <div class="detail-section">
+                    <h3>🔗 Действия</h3>
+                    <a href="${cursorLink}" class="cursor-link">📝 Продолжить в Cursor</a>
+                </div>
+            `;
+            
+            panel.classList.add('active');
+        }
+        
+        function closeDetail() {
+            document.getElementById('detailPanel').classList.remove('active');
+        }
+        
+        function getStatusLabel(status) {
+            const labels = {
+                'pending': '⏳ Ожидает',
+                'in_progress': '🔄 В работе',
+                'paused': '⏸️ Приостановлена',
+                'completed': '✅ Завершена',
+                'cancelled': '❌ Отменена'
+            };
+            return labels[status] || status;
+        }
+        
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleString('ru-RU');
+        }
+        
+        // Закрытие панели по Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeDetail();
+            }
+        });
+    </script>
+</body>
+</html>
+        
