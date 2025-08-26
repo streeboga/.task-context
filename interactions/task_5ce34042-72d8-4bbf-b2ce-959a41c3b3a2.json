@@ -1,0 +1,147 @@
+[
+  {
+    "interaction_id": "60cf1a8060d0",
+    "task_id": "5ce34042-72d8-4bbf-b2ce-959a41c3b3a2",
+    "timestamp": "2025-08-26T20:29:09.583384",
+    "user_message": "Не работает компресс-функция.",
+    "assistant_response_summary": "ИСПРАВЛЕНО! Команды compress и focus обновлены для работы с новой архитектурой (явный task_id). Создан и успешно пройден прямой тест функциональности. Обе команды теперь требуют task_id как параметр и корректно работают с TaskManager. Задача завершена успешно!",
+    "file_changes": [
+      {
+        "file_path": "html_renderer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 67767,
+        "size_after": 70475,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_tree_viewer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 14941,
+        "size_after": 14423,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_compress_focus_direct.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 3783,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "fix_indents.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 1052,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands_backup.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 21089,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 21027,
+        "size_after": 21116,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactive_tree_fix.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 810,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 68403,
+        "size_after": 79244,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_3c121959-0391-4f53-9fbf-7179ade48a41.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 5635,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 18705,
+        "size_after": 18908,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_compress_focus.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 0,
+        "size_after": 4899,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "INTERACTIVE_TREE_SUMMARY.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 5626,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_COMPLETION_SUMMARY.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 5023,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "CHAT_HISTORY_COMPACT.md",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:29:09.447667",
+        "size_before": 5977,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "read_file",
+      "search_replace",
+      "MultiEdit",
+      "write",
+      "run_terminal_cmd",
+      "todo_write",
+      "mcp_task-context-manager_save_progress"
+    ]
+  }
+]

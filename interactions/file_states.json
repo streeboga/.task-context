@@ -16,9 +16,9 @@
   },
   "html_renderer.py": {
     "exists": true,
-    "size": 67767,
-    "mtime": 1756213748.0757606,
-    "hash": "bc2170a492692bcd49f60cad362b7fec"
+    "size": 70475,
+    "mtime": 1756214941.2156062,
+    "hash": "6333460f04612b5124ea0b7fc9ec56d8"
   },
   "debug_mcp.py": {
     "exists": true,
@@ -62,7 +62,7 @@
   "Makefile": {
     "exists": true,
     "size": 2794,
-    "mtime": 1756214213.3136477,
+    "mtime": 1756214289.1572976,
     "hash": "3485473ee20f32d37f3bdeee39638ba9"
   },
   "interaction_logger.py": {
@@ -98,7 +98,7 @@
   ".cursorrules": {
     "exists": true,
     "size": 10520,
-    "mtime": 1756214191.9759226,
+    "mtime": 1756214289.1573443,
     "hash": "ecf4b85409043636865c71010abcf82d"
   },
   "test_cursor_mcp.py": {
@@ -199,9 +199,9 @@
   },
   "commands.py": {
     "exists": true,
-    "size": 21027,
-    "mtime": 1756214070.0666795,
-    "hash": "ff45b52362890a1aa7613f066dee8f93"
+    "size": 21116,
+    "mtime": 1756214960.9487069,
+    "hash": "388219de8a936dfde1dd069ccac4762d"
   },
   "test_git_check.py": {
     "exists": false
@@ -292,9 +292,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 68403,
-    "mtime": 1756214268.681889,
-    "hash": "4aca60549d76134e9a9436b5e02bdb32"
+    "size": 79244,
+    "mtime": 1756214949.3666966,
+    "hash": "96b37ec1672be631337a474ee726377e"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -310,9 +310,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 18705,
-    "mtime": 1756214233.1586928,
-    "hash": "7a29e58929ab543b8a2b6d5c21c5b99c"
+    "size": 19612,
+    "mtime": 1756214949.5833445,
+    "hash": "a740cfb0e2497d04840e91901e2b442f"
   },
   "test_current_task_persistence.py": {
     "exists": true,
@@ -334,9 +334,9 @@
   },
   "task_tree_viewer.py": {
     "exists": true,
-    "size": 14941,
-    "mtime": 1756213748.0692794,
-    "hash": "259f90b58e411990e90b21c777cdc5ee"
+    "size": 14423,
+    "mtime": 1756214694.1751103,
+    "hash": "44b7f60d39690d7e9a1f23bb265b10a3"
   },
   "test_interactive_tree_result.html": {
     "exists": true,
@@ -645,10 +645,7 @@
     "exists": false
   },
   "INTERACTIVE_TREE_SUMMARY.md": {
-    "exists": true,
-    "size": 5626,
-    "mtime": 1756213485.3817909,
-    "hash": "75161c33064221288a5b4b0a0f14b79f"
+    "exists": false
   },
   "test_realtime_interactive_tree_result.html": {
     "exists": true,
@@ -657,21 +654,15 @@
     "hash": "36b203ace63597b1184b0ea4c0814ba1"
   },
   "TASK_COMPLETION_SUMMARY.md": {
-    "exists": true,
-    "size": 5023,
-    "mtime": 1756214238.9681149,
-    "hash": "55ff18bc00932e56bd21a3d78b0390a7"
+    "exists": false
   },
   "CHAT_HISTORY_COMPACT.md": {
-    "exists": true,
-    "size": 5977,
-    "mtime": 1756214142.5576267,
-    "hash": "df76c6b8784451443aaa90dbcbc118aa"
+    "exists": false
   },
   "tests/run_all.py": {
     "exists": true,
     "size": 3787,
-    "mtime": 1756214172.3992755,
+    "mtime": 1756214289.1546686,
     "hash": "994b440992d993b6053ac07aeaefbb20"
   },
   ".task-context/interactions/task_a73a699c-66b3-46ff-b2b8-705832415217.json": {
@@ -697,5 +688,47 @@
     "size": 5926,
     "mtime": 1756214070.06678,
     "hash": "7f78a113840975c92ac8be5a52a932a9"
+  },
+  "test_compress_focus_direct.py": {
+    "exists": true,
+    "size": 3783,
+    "mtime": 1756214960.9510815,
+    "hash": "b79009e71da8c25cb93cdcfb0662c7b6"
+  },
+  "fix_indents.py": {
+    "exists": true,
+    "size": 1052,
+    "mtime": 1756214960.9564521,
+    "hash": "f9a948ca851365f8d0bf84cc06d6c3e1"
+  },
+  "commands_backup.py": {
+    "exists": true,
+    "size": 21089,
+    "mtime": 1756214726.4939315,
+    "hash": "26253cd644e2d1297522866af9fd2c7e"
+  },
+  ".task-context/interactive_tree_fix.md": {
+    "exists": true,
+    "size": 810,
+    "mtime": 1756214402.0807004,
+    "hash": "c7517bf6c5e7b58e05fdce34c5fc0206"
+  },
+  ".task-context/interactions/task_3c121959-0391-4f53-9fbf-7179ade48a41.json": {
+    "exists": true,
+    "size": 5635,
+    "mtime": 1756214276.1199555,
+    "hash": "b815108fbbb347ae1e2f43ca401bfd4c"
+  },
+  "tests/integration/test_compress_focus.py": {
+    "exists": true,
+    "size": 4899,
+    "mtime": 1756214960.9487205,
+    "hash": "fd2b872ef7c123baaadf21c29bca2f88"
+  },
+  ".task-context/interactions/task_5ce34042-72d8-4bbf-b2ce-959a41c3b3a2.json": {
+    "exists": true,
+    "size": 4769,
+    "mtime": 1756214949.583848,
+    "hash": "50bb9227f13cd1e1958f6baff3884762"
   }
 }
