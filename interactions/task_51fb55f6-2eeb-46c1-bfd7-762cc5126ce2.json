@@ -368,5 +368,45 @@
       "run_terminal_cmd",
       "delete_file"
     ]
+  },
+  {
+    "interaction_id": "7fa734a98670",
+    "task_id": "51fb55f6-2eeb-46c1-bfd7-762cc5126ce2",
+    "timestamp": "2025-08-26T21:20:13.561286",
+    "user_message": "перезапустил",
+    "assistant_response_summary": "После второго перезапуска MCP сервера все 3 проблемные задачи успешно завершены! Interactive Git-Tree Task Renderer, Real-time Task Tree Viewer и Убрать HTML рендеринг в .task-context теперь имеют статус completed. Исправления в task_manager.py и commands.py для санитизации имен функций тестов работают корректно.",
+    "file_changes": [
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:20:13.483580",
+        "size_before": 55469,
+        "size_after": 111839,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:20:13.483580",
+        "size_before": 11151,
+        "size_after": 13408,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:20:13.483580",
+        "size_before": 21361,
+        "size_after": 21565,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "mcp_task-context-manager_list_tasks"
+    ]
   }
 ]

@@ -197,7 +197,7 @@
   "commands.py": {
     "exists": true,
     "size": 22731,
-    "mtime": 1756217911.7350771,
+    "mtime": 1756217957.7470753,
     "hash": "8fb154f1f563fca58385b9220c36137c"
   },
   "test_git_check.py": {
@@ -277,9 +277,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 55469,
-    "mtime": 1756217932.2065253,
-    "hash": "b30c373d3bbbaa6886a002c7ee0b6e0f"
+    "size": 111839,
+    "mtime": 1756217998.9119878,
+    "hash": "74473e649ffaeaa0dc339107e271831c"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -295,9 +295,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 21361,
-    "mtime": 1756217794.9182904,
-    "hash": "68ce636e146f50905ddcd61513a565ce"
+    "size": 21565,
+    "mtime": 1756217950.3086064,
+    "hash": "a25a1d61c0b19c6525c2718a6995c10c"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -763,9 +763,9 @@
   },
   ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json": {
     "exists": true,
-    "size": 11151,
-    "mtime": 1756217198.6993034,
-    "hash": "51386769d033891043570a4653c44a08"
+    "size": 13408,
+    "mtime": 1756217950.3095253,
+    "hash": "6bf54895b5c1adff6d0457e324f0f1cd"
   },
   ".task-context/interactions/task_3ce3cce2-ddd2-4e7a-ba02-c16fb237f683.json": {
     "exists": true,
