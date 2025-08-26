@@ -1,0 +1,16 @@
+{
+  "e55fc5b3-fb82-4ee2-bff7-45e35debd5a9": {
+    "id": "e55fc5b3-fb82-4ee2-bff7-45e35debd5a9",
+    "name": "Authentication System",
+    "objective": "Implement JWT-based user authentication",
+    "task_type": "api",
+    "status": "pending",
+    "created_at": "2025-08-26T17:21:38.755398",
+    "updated_at": "2025-08-26T17:21:38.755398",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_authentication_system_api():\n    # Test API endpoint for Authentication System\n    # TODO: Test request/response for Implement JWT-based user authentication\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
+  }
+}
