@@ -405,5 +405,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "5a442320-1ae7-4649-bf38-5156f942591a": {
+    "id": "5a442320-1ae7-4649-bf38-5156f942591a",
+    "name": "\u0422\u0435\u0441\u0442 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+    "objective": "\u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0431\u0435\u0437 current_task_id",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T20:17:13.586886",
+    "updated_at": "2025-08-26T20:17:13.586886",
+    "parent_id": null,
+    "acceptance_test": "\ndef test_\u0442\u0435\u0441\u0442_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b():\n    # Test that \u0422\u0435\u0441\u0442 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b works correctly\n    # TODO: Implement specific test cases for \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0431\u0435\u0437 current_task_id\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }

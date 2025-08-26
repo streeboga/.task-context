@@ -1,0 +1,142 @@
+[
+  {
+    "interaction_id": "5be7b9a327e9",
+    "task_id": "50dc9694-9fb5-416d-b871-18f1c749a477",
+    "timestamp": "2025-08-26T20:17:13.158739",
+    "user_message": "Тест новой архитектуры MCP",
+    "assistant_response_summary": "Протестировали все основные функции новой архитектуры",
+    "file_changes": [
+      {
+        "file_path": "Makefile",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 2341,
+        "size_after": 2794,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".cursorrules",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 9023,
+        "size_after": 10520,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "TASK_COMPLETION_SUMMARY.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 5023,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "CHAT_HISTORY_COMPACT.md",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 5977,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/__init__.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 34,
+        "size_after": 15,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/run_all.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 3787,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 61301,
+        "size_after": 68715,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_a73a699c-66b3-46ff-b2b8-705832415217.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 5372,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 16431,
+        "size_after": 17887,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_mcp_new_architecture.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 8435,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/__init__.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 28,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "tests/integration/test_new_architecture.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 0,
+        "size_after": 5926,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_mcp_new_architecture.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 8435,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "test_new_architecture.py",
+        "change_type": "deleted",
+        "timestamp": "2025-08-26T20:17:13.025930",
+        "size_before": 5926,
+        "size_after": 0,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "task_command",
+      "get_context",
+      "save_progress"
+    ]
+  }
+]
