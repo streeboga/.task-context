@@ -315,5 +315,58 @@
       "mcp_task-context-manager_task_command",
       "mcp_task-context-manager_list_tasks"
     ]
+  },
+  {
+    "interaction_id": "fca729c21178",
+    "task_id": "51fb55f6-2eeb-46c1-bfd7-762cc5126ce2",
+    "timestamp": "2025-08-26T21:19:10.308725",
+    "user_message": "перезапустил mcp",
+    "assistant_response_summary": "После перезапуска MCP попытался завершить проблемные задачи, но система все еще использует старую логику генерации имен файлов тестов. Обнаружил, что нужно исправить не только task_manager.py, но и commands.py (функцию _cmd_test). Исправил обе функции, добавив санитизацию имен файлов. Обновил acceptance тесты в базе данных. Требуется еще один перезапуск MCP сервера для применения изменений в commands.py.",
+    "file_changes": [
+      {
+        "file_path": "commands.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:19:10.148180",
+        "size_before": 22096,
+        "size_after": 22731,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:19:10.148180",
+        "size_before": 113271,
+        "size_after": 55469,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_94d21cc8-730e-4182-9520-b6134d07847f.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:19:10.148180",
+        "size_before": 0,
+        "size_after": 2410,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:19:10.148180",
+        "size_before": 21158,
+        "size_after": 21361,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "grep",
+      "search_replace",
+      "write",
+      "run_terminal_cmd",
+      "delete_file"
+    ]
   }
 ]

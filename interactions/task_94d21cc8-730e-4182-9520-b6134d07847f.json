@@ -1,0 +1,55 @@
+[
+  {
+    "interaction_id": "20e8bf3a913c",
+    "task_id": "94d21cc8-730e-4182-9520-b6134d07847f",
+    "timestamp": "2025-08-26T21:16:34.918341",
+    "user_message": "сабтаск нам нахер не нужны эти тесты с синтаксическими ошибками для задач Interactive Git-Tree Task Renderer, Real-time Task Tree Viewer, Убрать HTML рендеринг в .task-context",
+    "assistant_response_summary": "Создал подзадачу для удаления проблемных тестов. Исправил функцию генерации acceptance тестов в task_manager.py, добавив обработку дефисов, точек и других проблемных символов. Обновил acceptance тесты для проблемных задач. Исправил имена задач, убрав проблемные символы. Система все еще использует старую логику, требуется перезапуск MCP сервера.",
+    "file_changes": [
+      {
+        "file_path": "task_manager.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:16:34.829257",
+        "size_before": 14639,
+        "size_after": 15200,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:16:34.829257",
+        "size_before": 110877,
+        "size_after": 113271,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_61eb1269-2275-44c2-bcf0-134bf55f2214.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T21:16:34.829257",
+        "size_before": 0,
+        "size_after": 2149,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:16:34.829257",
+        "size_before": 20952,
+        "size_after": 21158,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "mcp_task-context-manager_task_command",
+      "write",
+      "run_terminal_cmd",
+      "search_replace",
+      "delete_file",
+      "todo_write"
+    ]
+  }
+]
