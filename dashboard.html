@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Context Manager - Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 15px; }
+        .header { background: white; padding: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 15px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .stat-card { background: white; padding: 12px 16px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center; }
+        .stat-number { font-size: 1.5em; font-weight: bold; margin-bottom: 3px; }
+        .stat-label { color: #6b7280; font-size: 0.8em; }
+        .navigation { display: flex; gap: 8px; margin-bottom: 15px; }
+        .nav-btn { padding: 6px 12px; background: #3b82f6; color: white; text-decoration: none; border-radius: 4px; font-size: 0.85em; }
+        .nav-btn:hover { background: #2563eb; }
+        .pending { color: #6b7280; }
+        .in_progress { color: #3b82f6; }
+        .paused { color: #f59e0b; }
+        .completed { color: #10b981; }
+        .cancelled { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Task Context Manager</h1>
+            <p>Система управления задачами с контекстом</p>
+        </div>
+        
+        <div class="navigation">
+            <a href="dashboard.html" class="nav-btn">📊 Dashboard</a>
+            <a href="tree.html" class="nav-btn">🌳 Дерево задач</a>
+            <a href="table.html" class="nav-btn">📋 Таблица</a>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Всего задач</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number pending">1</div>
+                <div class="stat-label">Ожидают</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number in_progress">0</div>
+                <div class="stat-label">В работе</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number paused">2</div>
+                <div class="stat-label">Приостановлены</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number completed">1</div>
+                <div class="stat-label">Завершены</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number cancelled">0</div>
+                <div class="stat-label">Отменены</div>
+            </div>
+        </div>
+        
+        
+        <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <h2>🎯 Текущая задача</h2>
+            
+            <div style="margin-top: 15px; padding: 15px; background: #f8fafc; border-radius: 6px;">
+                <h3>Test Integration</h3>
+                <p style="color: #6b7280; margin: 5px 0;">Test MCP integration</p>
+                <div style="margin-top: 10px;">
+                    <span class="pending">Pending</span>
+                    <span style="margin-left: 15px; color: #6b7280;">Function</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+        

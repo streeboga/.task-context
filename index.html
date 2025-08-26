@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Context Manager - Reports</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { color: #6b7280; font-size: 1.1em; }
+        .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .nav-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; }
+        .nav-card:hover { transform: translateY(-2px); }
+        .nav-card a { text-decoration: none; color: inherit; }
+        .nav-icon { font-size: 3em; margin-bottom: 15px; }
+        .nav-title { font-size: 1.3em; font-weight: 600; margin-bottom: 10px; }
+        .nav-desc { color: #6b7280; font-size: 0.9em; }
+        .timestamp { text-align: center; margin-top: 40px; color: #9ca3af; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Task Context Manager</h1>
+            <p>Отчеты и визуализация задач</p>
+        </div>
+        
+        <div class="nav-grid">
+            <div class="nav-card">
+                <a href="dashboard.html">
+                    <div class="nav-icon">📊</div>
+                    <div class="nav-title">Dashboard</div>
+                    <div class="nav-desc">Обзор всех задач и статистика</div>
+                </a>
+            </div>
+            
+            <div class="nav-card">
+                <a href="tree.html">
+                    <div class="nav-icon">🌳</div>
+                    <div class="nav-title">Дерево задач</div>
+                    <div class="nav-desc">Иерархическое представление</div>
+                </a>
+            </div>
+            
+            <div class="nav-card">
+                <a href="table.html">
+                    <div class="nav-icon">📋</div>
+                    <div class="nav-title">Активные задачи</div>
+                    <div class="nav-desc">Табличное представление</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="timestamp">
+            Сгенерировано: 26.08.2025 18:31:49
+        </div>
+    </div>
+</body>
+</html>
+        
