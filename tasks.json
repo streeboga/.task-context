@@ -721,5 +721,19 @@
     "working_files": [],
     "decisions": [],
     "progress_summary": null
+  },
+  "41737cb5-22b0-44e3-8921-20ca3b096498": {
+    "id": "41737cb5-22b0-44e3-8921-20ca3b096498",
+    "name": "\u0423\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u0430\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u043f\u043e \u0438\u0441\u0442\u043e\u0440\u0438\u0438",
+    "objective": "\u041a\u043e\u043c\u0430\u043d\u0434\u044b \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0437\u0430\u0434\u0430\u0447 \u0447\u0435\u0440\u0435\u0437 Git",
+    "task_type": "function",
+    "status": "pending",
+    "created_at": "2025-08-26T22:43:10.228677",
+    "updated_at": "2025-08-26T22:43:10.228677",
+    "parent_id": "87ab40e8-2d65-4f3c-9b9e-c1f1b554f613",
+    "acceptance_test": "\ndef test_():\n    # Test that \u0423\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u0430\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u043f\u043e \u0438\u0441\u0442\u043e\u0440\u0438\u0438 works correctly\n    # TODO: Implement specific test cases for \u041a\u043e\u043c\u0430\u043d\u0434\u044b \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0437\u0430\u0434\u0430\u0447 \u0447\u0435\u0440\u0435\u0437 Git\n    pass\n",
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 }
