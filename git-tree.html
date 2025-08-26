@@ -170,10 +170,19 @@
                 <span class="tree-connector"></span>
                 <div class="task-node">
                     <span class="status-icon">⏸️</span>
-                    <span class="task-name" style="color: #f59e0b;">Приостановлена (1)</span>
+                    <span class="task-name" style="color: #f59e0b;">Приостановлена (2)</span>
                 </div>
             </div>
             
+                <div class="tree-line" onclick="showTaskDetail('08fa4685-dca4-4e5d-8a42-74e58538ad15')">
+                    <span class="tree-connector">├── </span>
+                    <div class="task-node">
+                        <span class="status-icon"></span>
+                        <span class="task-name status-paused">Interactive Git-Tree Task Renderer</span>
+                        <span class="task-meta">function • 9м</span>
+                    </div>
+                </div>
+                
                 <div class="tree-line" onclick="showTaskDetail('f5eb39e7-3ccf-4c03-8d4a-298ef41c44da')">
                     <span class="tree-connector">└── </span>
                     <div class="task-node">
@@ -191,12 +200,12 @@
                 </div>
             </div>
             
-                <div class="tree-line" onclick="showTaskDetail('08fa4685-dca4-4e5d-8a42-74e58538ad15')">
+                <div class="tree-line" onclick="showTaskDetail('9dc98b9a-8bd0-4a86-9a6c-882aff6d5486')">
                     <span class="tree-connector">└── </span>
                     <div class="task-node">
                         <span class="status-icon"></span>
-                        <span class="task-name status-pending">Interactive Git-Tree Task Renderer</span>
-                        <span class="task-meta">function • 2м</span>
+                        <span class="task-name status-pending">Добавить кнопку копирования контекста</span>
+                        <span class="task-meta">feature • 0м</span>
                     </div>
                 </div>
                 
@@ -430,16 +439,30 @@
     "id": "08fa4685-dca4-4e5d-8a42-74e58538ad15",
     "name": "Interactive Git-Tree Task Renderer",
     "objective": "Создать интерактивный рендер задач в виде git-дерева с hover/click детализацией и диплинками в Cursor",
-    "status": "pending",
+    "status": "paused",
     "task_type": "function",
     "created_at": "2025-08-26T19:18:41.300567",
-    "updated_at": "2025-08-26T19:20:59.953234",
+    "updated_at": "2025-08-26T19:28:13.387133",
     "parent_id": null,
     "working_files": [],
     "decisions": [
-      "Создан полноценный тест test_тест_правильного_пути.py который проверяет корректность путей сохранения задач. Тест подтверждает что система сохраняет данные в правильное место."
+      "Создан полноценный тест test_тест_правильного_пути.py который проверяет корректность путей сохранения задач. Тест подтверждает что система сохраняет данные в правильное место.",
+      "Выбран GitHub-стиль дизайна с темной темой для соответствия git-дереву. Реализована боковая детальная панель вместо модального окна для лучшего UX. Добавлены cursor:// диплинки для прямого перехода к задачам в Cursor IDE. Использована монопространственная типографика для аутентичного git-вида. Интегрирован в существующую систему рендеринга без нарушения обратной совместимости."
     ],
-    "progress_summary": "Тест правильного пути завершен успешно. Создан и протестирован acceptance test, который проверяет что задачи сохраняются в правильную папку проекта (.task-context в корне). Все проверки прошли успешно."
+    "progress_summary": "Интерактивный git-дерево рендер успешно реализован и протестирован. Создан новый метод render_interactive_git_tree() в HTMLTaskRenderer с GitHub-стилем дизайна, интерактивными элементами (hover/click), детальной боковой панелью и диплинками в Cursor. Добавлена поддержка как иерархических, так и плоских структур задач. Интегрировано в команду /task render. Созданы и успешно пройдены 9 тестов, покрывающих все основные функции."
+  },
+  "9dc98b9a-8bd0-4a86-9a6c-882aff6d5486": {
+    "id": "9dc98b9a-8bd0-4a86-9a6c-882aff6d5486",
+    "name": "Добавить кнопку копирования контекста",
+    "objective": "Добавить кнопку \"Копировать контекст\" рядом с диплинком, которая скопирует весь контекст задачи включая файлы и детали",
+    "status": "pending",
+    "task_type": "feature",
+    "created_at": "2025-08-26T19:28:13.443403",
+    "updated_at": "2025-08-26T19:28:13.443403",
+    "parent_id": null,
+    "working_files": [],
+    "decisions": [],
+    "progress_summary": null
   }
 };
         
