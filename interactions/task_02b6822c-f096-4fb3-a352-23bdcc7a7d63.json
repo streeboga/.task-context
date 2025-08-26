@@ -670,5 +670,75 @@
       "run_terminal_cmd",
       "grep"
     ]
+  },
+  {
+    "interaction_id": "eadc4a6b32b8",
+    "task_id": "02b6822c-f096-4fb3-a352-23bdcc7a7d63",
+    "timestamp": "2025-08-26T20:00:51.046845",
+    "user_message": "Финальный тест логирования после полного исправления",
+    "assistant_response_summary": "УСПЕХ! Полностью исправлена проблема с current_task_id. Добавлена автоматическая установка последней задачи как текущей при инициализации TaskManager. Убран сброс в null при завершении задач. Создан debug скрипт и тесты. Система логирования теперь работает корректно во всех сценариях.",
+    "file_changes": [
+      {
+        "file_path": "task_tree_viewer.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 26999,
+        "size_after": 33959,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "task_manager.py",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 16714,
+        "size_after": 17121,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": "debug_current_task.py",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 0,
+        "size_after": 2432,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 51227,
+        "size_after": 53887,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 8885,
+        "size_after": 16074,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_02b6822c-f096-4fb3-a352-23bdcc7a7d63.json",
+        "change_type": "created",
+        "timestamp": "2025-08-26T20:00:50.903783",
+        "size_before": 0,
+        "size_after": 20754,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "search_replace",
+      "write",
+      "run_terminal_cmd",
+      "debug_current_task.py",
+      "test_current_task_persistence.py"
+    ]
   }
 ]

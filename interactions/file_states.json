@@ -145,9 +145,9 @@
   },
   "task_manager.py": {
     "exists": true,
-    "size": 16714,
-    "mtime": 1756213028.5529852,
-    "hash": "1b06a11562da16b8961242942f750dbb"
+    "size": 17121,
+    "mtime": 1756213228.4051795,
+    "hash": "8ef36f31757e7c34e39bb48375ebd33d"
   },
   "test_git_integration.py": {
     "exists": false
@@ -292,14 +292,14 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 51227,
-    "mtime": 1756213057.2383084,
-    "hash": "cba09f9a7f44b1bb7e2ce6eff927b0a3"
+    "size": 53887,
+    "mtime": 1756213113.6322367,
+    "hash": "712e833aee5eda1e147b6f3a54793fa2"
   },
   ".task-context/current_task.json": {
     "exists": true,
     "size": 59,
-    "mtime": 1756213057.2384818,
+    "mtime": 1756213207.7895048,
     "hash": "50df957b5cec7e45172408087b5ea6b9"
   },
   ".task-context/interactions/task_c49860a5-e351-459d-a3d1-2ea39abde303.json": {
@@ -310,9 +310,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 8885,
-    "mtime": 1756210543.0428827,
-    "hash": "1bfa016ae890db3c0d3cb92fdfe6a93f"
+    "size": 16074,
+    "mtime": 1756213101.454704,
+    "hash": "c5e91b62b08e4e0317de8dd5ade07752"
   },
   "test_current_task_persistence.py": {
     "exists": true,
@@ -334,9 +334,9 @@
   },
   "task_tree_viewer.py": {
     "exists": true,
-    "size": 26999,
-    "mtime": 1756212495.7042458,
-    "hash": "ab70f2b147db2e42b093ccd430781650"
+    "size": 33959,
+    "mtime": 1756213177.1053033,
+    "hash": "40cc88e7d1727638c3be60c12e50140c"
   },
   "test_interactive_tree_result.html": {
     "exists": true,
@@ -595,5 +595,17 @@
     "size": 18311,
     "mtime": 1756212916.2063324,
     "hash": "100cdc84bca1635f4cc9b3f89f3342b4"
+  },
+  "debug_current_task.py": {
+    "exists": true,
+    "size": 2432,
+    "mtime": 1756213202.9178655,
+    "hash": "6d909c7a8b3734ca2406f7c6e4522689"
+  },
+  ".task-context/interactions/task_02b6822c-f096-4fb3-a352-23bdcc7a7d63.json": {
+    "exists": true,
+    "size": 20754,
+    "mtime": 1756213101.4566047,
+    "hash": "139f10c6a75c4f18f7af3e5ecf8d404d"
   }
 }
