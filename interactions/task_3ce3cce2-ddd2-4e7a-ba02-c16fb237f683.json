@@ -1,0 +1,43 @@
+[
+  {
+    "interaction_id": "0d54d373244d",
+    "task_id": "3ce3cce2-ddd2-4e7a-ba02-c16fb237f683",
+    "timestamp": "2025-08-26T21:06:52.120314",
+    "user_message": "сабтаск напиши ридми по тестированию и сошлись на него из основого",
+    "assistant_response_summary": "Создал подзадачи для документации тестирования: улучшил tests/README.md с практическими примерами (8 детальных примеров использования, метрики качества, troubleshooting), добавил ссылку на тестирование в основной README.md в секции Documentation и обновил секцию Development",
+    "file_changes": [
+      {
+        "file_path": ".task-context/tasks.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:52.028588",
+        "size_before": 107977,
+        "size_after": 107979,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:52.028588",
+        "size_before": 8418,
+        "size_after": 11151,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      {
+        "file_path": ".task-context/interactions/file_states.json",
+        "change_type": "modified",
+        "timestamp": "2025-08-26T21:06:52.028588",
+        "size_before": 20845,
+        "size_after": 20949,
+        "lines_added": null,
+        "lines_removed": null
+      }
+    ],
+    "tools_used": [
+      "task_command",
+      "read_file",
+      "search_replace"
+    ]
+  }
+]

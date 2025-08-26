@@ -277,9 +277,9 @@
   },
   ".task-context/tasks.json": {
     "exists": true,
-    "size": 107977,
-    "mtime": 1756217180.0839894,
-    "hash": "d0165152b5a850a99f90819629a837c3"
+    "size": 107979,
+    "mtime": 1756217205.711115,
+    "hash": "6b2f64e8d0c8ca198f059ceeaffd0dd5"
   },
   ".task-context/current_task.json": {
     "exists": true,
@@ -295,9 +295,9 @@
   },
   ".task-context/interactions/file_states.json": {
     "exists": true,
-    "size": 20845,
-    "mtime": 1756217163.0761,
-    "hash": "680db13cb1c0e486cfe3240b3127f9de"
+    "size": 20949,
+    "mtime": 1756217198.6986527,
+    "hash": "30c0f8dab46cec26cf4a56d96812e573"
   },
   "test_current_task_persistence.py": {
     "exists": false
@@ -763,8 +763,8 @@
   },
   ".task-context/interactions/task_51fb55f6-2eeb-46c1-bfd7-762cc5126ce2.json": {
     "exists": true,
-    "size": 8418,
-    "mtime": 1756217163.0767465,
-    "hash": "4406f2afd17f53ee64a1f3b9cfe46da5"
+    "size": 11151,
+    "mtime": 1756217198.6993034,
+    "hash": "51386769d033891043570a4653c44a08"
   }
 }
