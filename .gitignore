@@ -1,0 +1,5 @@
+# Task Context Manager
+*.pyc
+__pycache__/
+.DS_Store
+*.tmp
