@@ -652,16 +652,16 @@
     "decisions": [],
     "progress_summary": null
   },
-  "86c61d36-0f08-4c2d-b615-f1c59a57d4bf": {
-    "id": "86c61d36-0f08-4c2d-b615-f1c59a57d4bf",
-    "name": "Test Integration",
-    "objective": "Test MCP integration",
+  "c931fd0c-0982-4c16-96b4-acb1bbfc72ee": {
+    "id": "c931fd0c-0982-4c16-96b4-acb1bbfc72ee",
+    "name": "\u041e\u0447\u0438\u0441\u0442\u043a\u0430 \u0434\u0443\u0431\u043b\u0438\u0440\u0443\u044e\u0449\u0438\u0445\u0441\u044f \u0442\u0435\u0441\u0442\u043e\u0432",
+    "objective": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0441\u0442\u0430\u0440\u044b\u0435 \u0438 \u043d\u0435\u043d\u0443\u0436\u043d\u044b\u0435 \u0442\u0435\u0441\u0442\u044b, \u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435",
     "task_type": "function",
     "status": "pending",
-    "created_at": "2025-08-26T21:35:40.783627",
-    "updated_at": "2025-08-26T21:35:40.783627",
+    "created_at": "2025-08-26T21:36:59.589387",
+    "updated_at": "2025-08-26T21:36:59.589387",
     "parent_id": null,
-    "acceptance_test": "\ndef test_test_integration():\n    # Test that Test Integration works correctly\n    # TODO: Implement specific test cases for Test MCP integration\n    pass\n",
+    "acceptance_test": "\ndef test_():\n    # Test that \u041e\u0447\u0438\u0441\u0442\u043a\u0430 \u0434\u0443\u0431\u043b\u0438\u0440\u0443\u044e\u0449\u0438\u0445\u0441\u044f \u0442\u0435\u0441\u0442\u043e\u0432 works correctly\n    # TODO: Implement specific test cases for \u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0441\u0442\u0430\u0440\u044b\u0435 \u0438 \u043d\u0435\u043d\u0443\u0436\u043d\u044b\u0435 \u0442\u0435\u0441\u0442\u044b, \u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435\n    pass\n",
     "working_files": [],
     "decisions": [],
     "progress_summary": null
